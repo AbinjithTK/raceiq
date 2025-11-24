@@ -1,0 +1,74 @@
+[
+  {
+    "id": "rag_0048",
+    "question": "How does the points system work?",
+    "answer": "Toyota GR Cup points (typical): 1st=25, 2nd=18, 3rd=15, 4th=12, 5th=10, 6th=8, 7th=6, 8th=4, 9th=2, 10th=1. Bonus: Fastest lap=1 point (if in top 10). Strategy: Consistency beats occasional wins. P5 every race > P1 then DNF. Protect points when leading championship. Take risks when behind. Calculate points needed vs races remaining.",
+    "context": {
+      "category": "championship",
+      "subcategory": "points_system",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  },
+  {
+    "id": "rag_0049",
+    "question": "When should I take risks vs play it safe?",
+    "answer": "Risk assessment: Take risks when: Behind in championship, late in season, need to make up positions, nothing to lose. Play safe when: Leading championship, early in season, in points position, mechanical issues. Calculate: Is potential gain worth potential loss? P5 guaranteed vs 50% chance at P3 (risk DNF) = take P5 if leading championship.",
+    "context": {
+      "category": "championship",
+      "subcategory": "risk_management",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  },
+  {
+    "id": "rag_0050",
+    "question": "Which tracks should I focus on?",
+    "answer": "Focus on: 1) Tracks that suit your style (technical vs flowing), 2) Tracks with most points available (double-headers), 3) Tracks where you're competitive (maximize points), 4) Tracks where rivals struggle (gain advantage). Analyze: Your best tracks (prioritize), your worst tracks (improve or minimize damage), rivals' strengths (prepare to defend).",
+    "context": {
+      "category": "championship",
+      "subcategory": "track_selection",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  },
+  {
+    "id": "rag_0051",
+    "question": "How do I plan a championship season?",
+    "answer": "Season planning: 1) Set realistic goals (target position), 2) Identify key races (double points, home tracks), 3) Budget resources (tires, parts, testing), 4) Plan improvements (weak areas to work on), 5) Monitor rivals (who to beat). Review after each race: On target? Adjust strategy? What to improve? Stay flexible but focused on end goal.",
+    "context": {
+      "category": "championship",
+      "subcategory": "season_planning",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  }
+]

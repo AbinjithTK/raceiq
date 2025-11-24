@@ -1,0 +1,1864 @@
+[
+  {
+    "id": "rag_0001",
+    "question": "Tell me about Barber Motorsports Park",
+    "answer": "Barber Motorsports Park is a 3.7km circuit with 17 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its technical layout with many elevation changes.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "barber",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.564799"
+    }
+  },
+  {
+    "id": "rag_0002",
+    "question": "What makes Barber Motorsports Park unique?",
+    "answer": "Barber Motorsports Park features 17 technical corners with significant elevation changes. The 3.7km layout rewards smooth driving and precise braking. Key challenges include the downhill braking zones and blind apexes.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "barber",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.564799"
+    }
+  },
+  {
+    "id": "rag_0003",
+    "question": "What's the best strategy for Barber Motorsports Park?",
+    "answer": "Strategy for Barber Motorsports Park: Shorter lap length means more laps and more opportunities to make up positions. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is crucial.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "barber",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.564799"
+    }
+  },
+  {
+    "id": "rag_0004",
+    "question": "What was the winning time at Barber Motorsports Park Race 1?",
+    "answer": "The race winner at Barber Motorsports Park Race 1 completed the race in 45:15.035. This represents the fastest overall performance across all 22 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "barber",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.584285"
+    }
+  },
+  {
+    "id": "rag_0005",
+    "question": "How many cars competed at Barber Motorsports Park Race 1?",
+    "answer": "22 cars competed in Race 1 at Barber Motorsports Park. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "barber",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.584285"
+    }
+  },
+  {
+    "id": "rag_0006",
+    "question": "What were the weather conditions at Barber Motorsports Park Race 1?",
+    "answer": "At Barber Motorsports Park Race 1, the track temperature was 0°C and air temperature was 29.8°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "barber",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.610175"
+    }
+  },
+  {
+    "id": "rag_0007",
+    "question": "What were the top 3 lap times at Barber Motorsports Park Race 1?",
+    "answer": "The top 3 lap times at Barber Motorsports Park Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "barber",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.629306"
+    }
+  },
+  {
+    "id": "rag_0008",
+    "question": "What was the winning time at Barber Motorsports Park Race 2?",
+    "answer": "The race winner at Barber Motorsports Park Race 2 completed the race in 45:37.014. This represents the fastest overall performance across all 22 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "barber",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.644575"
+    }
+  },
+  {
+    "id": "rag_0009",
+    "question": "How many cars competed at Barber Motorsports Park Race 2?",
+    "answer": "22 cars competed in Race 2 at Barber Motorsports Park. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "barber",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.644575"
+    }
+  },
+  {
+    "id": "rag_0010",
+    "question": "What were the weather conditions at Barber Motorsports Park Race 2?",
+    "answer": "At Barber Motorsports Park Race 2, the track temperature was 0°C and air temperature was 23.54°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "barber",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.691288"
+    }
+  },
+  {
+    "id": "rag_0011",
+    "question": "What were the top 3 lap times at Barber Motorsports Park Race 2?",
+    "answer": "The top 3 lap times at Barber Motorsports Park Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "barber",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.702282"
+    }
+  },
+  {
+    "id": "rag_0012",
+    "question": "Tell me about Indianapolis Motor Speedway (Road Course)",
+    "answer": "Indianapolis Motor Speedway (Road Course) is a 4.0km circuit with 14 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its flowing layout with high-speed sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "indianapolis",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.716289"
+    }
+  },
+  {
+    "id": "rag_0013",
+    "question": "What makes Indianapolis Motor Speedway (Road Course) unique?",
+    "answer": "Indianapolis Motor Speedway (Road Course) combines the famous oval with an infield road course, creating a unique 4.0km layout with 14 turns. The mix of high-speed oval sections and technical infield corners demands versatility.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "indianapolis",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.716289"
+    }
+  },
+  {
+    "id": "rag_0014",
+    "question": "What's the best strategy for Indianapolis Motor Speedway (Road Course)?",
+    "answer": "Strategy for Indianapolis Motor Speedway (Road Course): Standard fuel strategy applies with typical consumption rates. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is important but overtaking is possible.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "indianapolis",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.716289"
+    }
+  },
+  {
+    "id": "rag_0015",
+    "question": "What was the winning time at Indianapolis Motor Speedway (Road Course) Race 1?",
+    "answer": "The race winner at Indianapolis Motor Speedway (Road Course) Race 1 completed the race in 46:41.553. This represents the fastest overall performance across all 29 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "indianapolis",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.738229"
+    }
+  },
+  {
+    "id": "rag_0016",
+    "question": "How many cars competed at Indianapolis Motor Speedway (Road Course) Race 1?",
+    "answer": "29 cars competed in Race 1 at Indianapolis Motor Speedway (Road Course). All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "indianapolis",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.738229"
+    }
+  },
+  {
+    "id": "rag_0017",
+    "question": "What were the weather conditions at Indianapolis Motor Speedway (Road Course) Race 1?",
+    "answer": "At Indianapolis Motor Speedway (Road Course) Race 1, the track temperature was 16.9°C and air temperature was 16.45°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "indianapolis",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.754741"
+    }
+  },
+  {
+    "id": "rag_0018",
+    "question": "What were the top 3 lap times at Indianapolis Motor Speedway (Road Course) Race 1?",
+    "answer": "The top 3 lap times at Indianapolis Motor Speedway (Road Course) Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "indianapolis",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.773480"
+    }
+  },
+  {
+    "id": "rag_0019",
+    "question": "What was the winning time at Indianapolis Motor Speedway (Road Course) Race 2?",
+    "answer": "The race winner at Indianapolis Motor Speedway (Road Course) Race 2 completed the race in 45:30.694. This represents the fastest overall performance across all 29 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "indianapolis",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.804742"
+    }
+  },
+  {
+    "id": "rag_0020",
+    "question": "How many cars competed at Indianapolis Motor Speedway (Road Course) Race 2?",
+    "answer": "29 cars competed in Race 2 at Indianapolis Motor Speedway (Road Course). All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "indianapolis",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.804742"
+    }
+  },
+  {
+    "id": "rag_0021",
+    "question": "What were the weather conditions at Indianapolis Motor Speedway (Road Course) Race 2?",
+    "answer": "At Indianapolis Motor Speedway (Road Course) Race 2, the track temperature was 14.9°C and air temperature was 12.07°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "indianapolis",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.849737"
+    }
+  },
+  {
+    "id": "rag_0022",
+    "question": "What were the top 3 lap times at Indianapolis Motor Speedway (Road Course) Race 2?",
+    "answer": "The top 3 lap times at Indianapolis Motor Speedway (Road Course) Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "indianapolis",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.861952"
+    }
+  },
+  {
+    "id": "rag_0023",
+    "question": "Tell me about Circuit of The Americas",
+    "answer": "Circuit of The Americas is a 5.5km circuit with 20 turns, running counterclockwise. It's part of the Toyota GR Cup championship. The track is known for its technical layout with high-speed sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "cota",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.906129"
+    }
+  },
+  {
+    "id": "rag_0024",
+    "question": "What makes Circuit of The Americas unique?",
+    "answer": "Circuit of The Americas is a world-class 5.5km circuit with 20 corners, running counterclockwise. The dramatic elevation changes, especially Turn 1's uphill approach, and the technical sector 2 make it highly challenging.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "cota",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.906129"
+    }
+  },
+  {
+    "id": "rag_0025",
+    "question": "What's the best strategy for Circuit of The Americas?",
+    "answer": "Strategy for Circuit of The Americas: Standard fuel strategy applies with typical consumption rates. High corner count increases tire degradation. Consider tire management strategy. The counterclockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is crucial.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "cota",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.906129"
+    }
+  },
+  {
+    "id": "rag_0026",
+    "question": "What was the winning time at Circuit of The Americas Race 1?",
+    "answer": "The race winner at Circuit of The Americas Race 1 completed the race in 45:57.575. This represents the fastest overall performance across all 31 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "cota",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.928146"
+    }
+  },
+  {
+    "id": "rag_0027",
+    "question": "How many cars competed at Circuit of The Americas Race 1?",
+    "answer": "31 cars competed in Race 1 at Circuit of The Americas. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "cota",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.928146"
+    }
+  },
+  {
+    "id": "rag_0028",
+    "question": "What were the weather conditions at Circuit of The Americas Race 1?",
+    "answer": "At Circuit of The Americas Race 1, the track temperature was 43.2°C and air temperature was 28.69°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "cota",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.939303"
+    }
+  },
+  {
+    "id": "rag_0029",
+    "question": "What were the top 3 lap times at Circuit of The Americas Race 1?",
+    "answer": "The top 3 lap times at Circuit of The Americas Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "cota",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.949162"
+    }
+  },
+  {
+    "id": "rag_0030",
+    "question": "What was the winning time at Circuit of The Americas Race 2?",
+    "answer": "The race winner at Circuit of The Americas Race 2 completed the race in 46:39.087. This represents the fastest overall performance across all 31 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "cota",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.990072"
+    }
+  },
+  {
+    "id": "rag_0031",
+    "question": "How many cars competed at Circuit of The Americas Race 2?",
+    "answer": "31 cars competed in Race 2 at Circuit of The Americas. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "cota",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.990072"
+    }
+  },
+  {
+    "id": "rag_0032",
+    "question": "What were the top 3 lap times at Circuit of The Americas Race 2?",
+    "answer": "The top 3 lap times at Circuit of The Americas Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "cota",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.020470"
+    }
+  },
+  {
+    "id": "rag_0033",
+    "question": "Tell me about Sebring International Raceway",
+    "answer": "Sebring International Raceway is a 6.0km circuit with 17 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its technical layout with high-speed sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "sebring",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.051225"
+    }
+  },
+  {
+    "id": "rag_0034",
+    "question": "What makes Sebring International Raceway unique?",
+    "answer": "Sebring International Raceway is a historic 6.0km circuit known for its bumpy surface and 17 challenging corners. The rough track surface tests both car and driver endurance, with unique concrete sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "sebring",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.051225"
+    }
+  },
+  {
+    "id": "rag_0035",
+    "question": "What's the best strategy for Sebring International Raceway?",
+    "answer": "Strategy for Sebring International Raceway: Fuel management is critical due to the long lap distance. Monitor consumption closely. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is crucial.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "sebring",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.051225"
+    }
+  },
+  {
+    "id": "rag_0036",
+    "question": "What was the winning time at Sebring International Raceway Race 1?",
+    "answer": "The race winner at Sebring International Raceway Race 1 completed the race in 46:23.022. This represents the fastest overall performance across all 22 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "sebring",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.077457"
+    }
+  },
+  {
+    "id": "rag_0037",
+    "question": "How many cars competed at Sebring International Raceway Race 1?",
+    "answer": "22 cars competed in Race 1 at Sebring International Raceway. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "sebring",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.077457"
+    }
+  },
+  {
+    "id": "rag_0038",
+    "question": "What were the weather conditions at Sebring International Raceway Race 1?",
+    "answer": "At Sebring International Raceway Race 1, the track temperature was 45.3°C and air temperature was 32.97°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "sebring",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.108105"
+    }
+  },
+  {
+    "id": "rag_0039",
+    "question": "What were the top 3 lap times at Sebring International Raceway Race 1?",
+    "answer": "The top 3 lap times at Sebring International Raceway Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "sebring",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.119436"
+    }
+  },
+  {
+    "id": "rag_0040",
+    "question": "What was the winning time at Sebring International Raceway Race 2?",
+    "answer": "The race winner at Sebring International Raceway Race 2 completed the race in 40:14.331. This represents the fastest overall performance across all 22 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "sebring",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.162713"
+    }
+  },
+  {
+    "id": "rag_0041",
+    "question": "How many cars competed at Sebring International Raceway Race 2?",
+    "answer": "22 cars competed in Race 2 at Sebring International Raceway. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "sebring",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.162713"
+    }
+  },
+  {
+    "id": "rag_0042",
+    "question": "What were the weather conditions at Sebring International Raceway Race 2?",
+    "answer": "At Sebring International Raceway Race 2, the track temperature was 39.0°C and air temperature was 29.55°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "sebring",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.207277"
+    }
+  },
+  {
+    "id": "rag_0043",
+    "question": "What were the top 3 lap times at Sebring International Raceway Race 2?",
+    "answer": "The top 3 lap times at Sebring International Raceway Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "sebring",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.218458"
+    }
+  },
+  {
+    "id": "rag_0044",
+    "question": "Tell me about Road America",
+    "answer": "Road America is a 6.5km circuit with 14 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its flowing layout with high-speed sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "road_america",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.257819"
+    }
+  },
+  {
+    "id": "rag_0045",
+    "question": "What makes Road America unique?",
+    "answer": "Road America is one of America's longest tracks at 6.5km with 14 turns. The high-speed nature, long straights, and fast corners like the Kink demand bravery and commitment.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "road_america",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.257819"
+    }
+  },
+  {
+    "id": "rag_0046",
+    "question": "What's the best strategy for Road America?",
+    "answer": "Strategy for Road America: Fuel management is critical due to the long lap distance. Monitor consumption closely. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is important but overtaking is possible.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "road_america",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.257819"
+    }
+  },
+  {
+    "id": "rag_0047",
+    "question": "What was the winning time at Road America Race 1?",
+    "answer": "The race winner at Road America Race 1 completed the race in 45:03.689. This represents the fastest overall performance across all 28 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "road_america",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.272892"
+    }
+  },
+  {
+    "id": "rag_0048",
+    "question": "How many cars competed at Road America Race 1?",
+    "answer": "28 cars competed in Race 1 at Road America. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "road_america",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.272892"
+    }
+  },
+  {
+    "id": "rag_0049",
+    "question": "What were the weather conditions at Road America Race 1?",
+    "answer": "At Road America Race 1, the track temperature was 23.7°C and air temperature was 20.91°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "road_america",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.305385"
+    }
+  },
+  {
+    "id": "rag_0050",
+    "question": "What were the top 3 lap times at Road America Race 1?",
+    "answer": "The top 3 lap times at Road America Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "road_america",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.315390"
+    }
+  },
+  {
+    "id": "rag_0051",
+    "question": "What was the winning time at Road America Race 2?",
+    "answer": "The race winner at Road America Race 2 completed the race in 46:59.428. This represents the fastest overall performance across all 28 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "road_america",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.354312"
+    }
+  },
+  {
+    "id": "rag_0052",
+    "question": "How many cars competed at Road America Race 2?",
+    "answer": "28 cars competed in Race 2 at Road America. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "road_america",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.354312"
+    }
+  },
+  {
+    "id": "rag_0053",
+    "question": "What were the weather conditions at Road America Race 2?",
+    "answer": "At Road America Race 2, the track temperature was 30.9°C and air temperature was 22.64°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "road_america",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.374055"
+    }
+  },
+  {
+    "id": "rag_0054",
+    "question": "What were the top 3 lap times at Road America Race 2?",
+    "answer": "The top 3 lap times at Road America Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "road_america",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.392075"
+    }
+  },
+  {
+    "id": "rag_0055",
+    "question": "Tell me about Sonoma Raceway",
+    "answer": "Sonoma Raceway is a 4.0km circuit with 12 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its flowing layout with many elevation changes.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "sonoma",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.421840"
+    }
+  },
+  {
+    "id": "rag_0056",
+    "question": "What makes Sonoma Raceway unique?",
+    "answer": "Sonoma Raceway is a 4.0km technical circuit with 12 corners and significant elevation changes. The uphill and downhill sections create unique braking and acceleration challenges.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "sonoma",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.421840"
+    }
+  },
+  {
+    "id": "rag_0057",
+    "question": "What's the best strategy for Sonoma Raceway?",
+    "answer": "Strategy for Sonoma Raceway: Standard fuel strategy applies with typical consumption rates. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is important but overtaking is possible.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "sonoma",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.421840"
+    }
+  },
+  {
+    "id": "rag_0058",
+    "question": "What were the weather conditions at Sonoma Raceway Race 1?",
+    "answer": "At Sonoma Raceway Race 1, the track temperature was 32.2°C and air temperature was 15.8°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "sonoma",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.478296"
+    }
+  },
+  {
+    "id": "rag_0059",
+    "question": "What were the top 3 lap times at Sonoma Raceway Race 1?",
+    "answer": "The top 3 lap times at Sonoma Raceway Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "sonoma",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.500373"
+    }
+  },
+  {
+    "id": "rag_0060",
+    "question": "What was the winning time at Sonoma Raceway Race 2?",
+    "answer": "The race winner at Sonoma Raceway Race 2 completed the race in 45:30.730. This represents the fastest overall performance across all 31 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "sonoma",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.549648"
+    }
+  },
+  {
+    "id": "rag_0061",
+    "question": "How many cars competed at Sonoma Raceway Race 2?",
+    "answer": "31 cars competed in Race 2 at Sonoma Raceway. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "sonoma",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.549648"
+    }
+  },
+  {
+    "id": "rag_0062",
+    "question": "What were the top 3 lap times at Sonoma Raceway Race 2?",
+    "answer": "The top 3 lap times at Sonoma Raceway Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "sonoma",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.586904"
+    }
+  },
+  {
+    "id": "rag_0063",
+    "question": "Tell me about Virginia International Raceway",
+    "answer": "Virginia International Raceway is a 5.3km circuit with 18 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its technical layout with many elevation changes.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "vir",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.626567"
+    }
+  },
+  {
+    "id": "rag_0064",
+    "question": "What makes Virginia International Raceway unique?",
+    "answer": "Virginia International Raceway features 18 corners across 5.3km of flowing, technical layout. Known for elevation changes and the challenging Oak Tree corner, it rewards smooth, committed driving.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "vir",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.626567"
+    }
+  },
+  {
+    "id": "rag_0065",
+    "question": "What's the best strategy for Virginia International Raceway?",
+    "answer": "Strategy for Virginia International Raceway: Standard fuel strategy applies with typical consumption rates. High corner count increases tire degradation. Consider tire management strategy. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is crucial.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "vir",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.626567"
+    }
+  },
+  {
+    "id": "rag_0066",
+    "question": "What was the winning time at Virginia International Raceway Race 1?",
+    "answer": "The race winner at Virginia International Raceway Race 1 completed the race in 45:41.760. This represents the fastest overall performance across all 24 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "vir",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.655131"
+    }
+  },
+  {
+    "id": "rag_0067",
+    "question": "How many cars competed at Virginia International Raceway Race 1?",
+    "answer": "24 cars competed in Race 1 at Virginia International Raceway. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "vir",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.655131"
+    }
+  },
+  {
+    "id": "rag_0068",
+    "question": "What were the weather conditions at Virginia International Raceway Race 1?",
+    "answer": "At Virginia International Raceway Race 1, the track temperature was 49.9°C and air temperature was 34.15°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "vir",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.717266"
+    }
+  },
+  {
+    "id": "rag_0069",
+    "question": "What were the top 3 lap times at Virginia International Raceway Race 1?",
+    "answer": "The top 3 lap times at Virginia International Raceway Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "vir",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.734558"
+    }
+  },
+  {
+    "id": "rag_0070",
+    "question": "What was the winning time at Virginia International Raceway Race 2?",
+    "answer": "The race winner at Virginia International Raceway Race 2 completed the race in 45:27.792. This represents the fastest overall performance across all 24 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "vir",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.806750"
+    }
+  },
+  {
+    "id": "rag_0071",
+    "question": "How many cars competed at Virginia International Raceway Race 2?",
+    "answer": "24 cars competed in Race 2 at Virginia International Raceway. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "vir",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.806750"
+    }
+  },
+  {
+    "id": "rag_0072",
+    "question": "What were the weather conditions at Virginia International Raceway Race 2?",
+    "answer": "At Virginia International Raceway Race 2, the track temperature was 42.2°C and air temperature was 31.83°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "vir",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.846863"
+    }
+  },
+  {
+    "id": "rag_0073",
+    "question": "What were the top 3 lap times at Virginia International Raceway Race 2?",
+    "answer": "The top 3 lap times at Virginia International Raceway Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "vir",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.857863"
+    }
+  },
+  {
+    "id": "rag_0074",
+    "question": "What is Speed in telemetry?",
+    "answer": "Speed (km/h) measures Vehicle speed. Use it to: Monitor corner entry/exit speeds, identify braking points. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0075",
+    "question": "What is Throttle (aps) in telemetry?",
+    "answer": "Throttle (aps) (%) measures Accelerator pedal position. Use it to: Analyze throttle smoothness, optimize corner exits. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0076",
+    "question": "What is Brake Pressure in telemetry?",
+    "answer": "Brake Pressure (bar) measures Front/rear brake pressure. Use it to: Evaluate braking technique, identify trail braking. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0077",
+    "question": "What is Lateral G (accy_can) in telemetry?",
+    "answer": "Lateral G (accy_can) (G) measures Sideways acceleration. Use it to: Measure cornering speed, identify grip limits. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0078",
+    "question": "What is Longitudinal G (accx_can) in telemetry?",
+    "answer": "Longitudinal G (accx_can) (G) measures Forward/backward acceleration. Use it to: Analyze acceleration and braking performance. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0079",
+    "question": "What is Steering Angle in telemetry?",
+    "answer": "Steering Angle (degrees) measures Steering wheel angle. Use it to: Evaluate steering smoothness, identify over/understeer. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0080",
+    "question": "What is the optimal racing line?",
+    "answer": "The optimal racing line maximizes corner exit speed: Enter wide, turn in at the correct point, hit the apex at minimum speed (late apex usually best), exit wide with full throttle. Key principle: 'Slow in, fast out' - prioritize exit speed, especially before straights.",
+    "context": {
+      "category": "coaching",
+      "subcategory": "racing_line",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0081",
+    "question": "How do I improve my braking technique?",
+    "answer": "Effective braking: 1) Brake in a straight line before turn-in, 2) Apply maximum pressure quickly (70-85 bar), 3) Trail brake: gradually release as you turn in, 4) Feel for lock-up, 5) Finish braking before apex. Practice threshold braking for best results.",
+    "context": {
+      "category": "coaching",
+      "subcategory": "braking",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0082",
+    "question": "How do I apply throttle smoothly?",
+    "answer": "Smooth throttle application: Begin at apex when unwinding steering, progressive application (0→100% gradually), match to steering angle (less steering = more throttle), feel for wheelspin, full throttle when straight. Smooth = fast and preserves tires.",
+    "context": {
+      "category": "coaching",
+      "subcategory": "throttle_control",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0083",
+    "question": "How do I extend tire life?",
+    "answer": "Extend tire life by: 1) Smooth inputs (gradual throttle/brake), 2) Avoid wheelspin, 3) Minimize sliding, 4) Proper tire temps (25-35°C optimal), 5) Strategic lift-and-coast. Trade 0.2-0.3s/lap early to gain 1-2s/lap advantage late in stint.",
+    "context": {
+      "category": "coaching",
+      "subcategory": "tire_management",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0084",
+    "question": "How do I drive more consistently?",
+    "answer": "Build consistency through: 1) Reference points (braking markers, turn-in points, apexes), 2) Repeatable technique, 3) Smooth driving, 4) Mental focus, 5) Physical fitness. Aim for ±0.5s lap time variation. Consistency beats occasional fast laps.",
+    "context": {
+      "category": "coaching",
+      "subcategory": "consistency",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0085",
+    "question": "When should I use an undercut strategy?",
+    "answer": "Use an undercut when: 1) Within 3 seconds of car ahead, 2) Tire degradation is significant (>0.3s/lap), 3) Pit loss time is low (<25s), 4) Limited overtaking opportunities. Pit 2-3 laps before competitor, push hard on fresh tires. Most effective laps 12-14 in a 27-lap race.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "undercut",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0086",
+    "question": "What is an overcut strategy?",
+    "answer": "An overcut is staying out longer after competitor pits. Works when: 1) Your tires are still performing, 2) Track is clear (no traffic), 3) You can push hard for 3-5 laps, 4) Pit loss time is high. Stay out, set fast laps, pit later and emerge ahead.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "overcut",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0087",
+    "question": "How do I respond to a safety car?",
+    "answer": "Safety car strategy depends on position: If leading: Stay out if tires good, pit if old. If mid-pack: Usually pit (free stop), take fresh tires. If at back: Gamble on staying out for track position. Key factors: Tire age (>15 laps = pit), fuel level, gap to cars ahead/behind.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "safety car",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0088",
+    "question": "How do I manage fuel during a race?",
+    "answer": "Fuel management: 1) Calculate consumption (2-3 liters/lap in GR86), 2) Monitor fuel vs laps remaining, 3) If short: Lift-and-coast, short-shift (500rpm early), reduce brake drag, 4) If comfortable: Push normally. Running out costs 30+ seconds, conservative pace costs 0.5-1s/lap.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "fuel management",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0089",
+    "question": "What is understeer and how do I fix it?",
+    "answer": "Understeer = front tires lose grip first, car won't turn. Causes: Too much entry speed, early throttle, wrong line. Fixes: Brake earlier, slower entry, later apex, trail brake more, reduce mid-corner throttle. Driving around it requires patience.",
+    "context": {
+      "category": "vehicle_dynamics",
+      "subcategory": "understeer",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0090",
+    "question": "What is oversteer and how do I fix it?",
+    "answer": "Oversteer = rear tires lose grip first, car rotates too much. Causes: Too much throttle, lift-off mid-corner, aggressive inputs. Fixes: Smoother throttle, avoid sudden lift, earlier apex, reduce trail braking. Catch slides early with steering correction.",
+    "context": {
+      "category": "vehicle_dynamics",
+      "subcategory": "oversteer",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0091",
+    "question": "How does weight transfer affect handling?",
+    "answer": "Weight transfer: Braking = weight to front (more front grip). Accelerating = weight to rear (more rear grip). Cornering = weight to outside. Use it: Trail brake to keep weight on front for turn-in, smooth throttle to transfer weight to rear for traction.",
+    "context": {
+      "category": "vehicle_dynamics",
+      "subcategory": "weight transfer",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0092",
+    "question": "How does tire pressure affect performance?",
+    "answer": "Tire pressure effects: Too low = more grip but overheats, wears faster. Too high = less grip, bouncy, uneven wear. Optimal: 30-35 PSI (hot) for GR86. Adjust: +2 PSI if overheating, -2 PSI if not warming up. Check after 3-5 laps when hot.",
+    "context": {
+      "category": "vehicle_dynamics",
+      "subcategory": "tire pressure",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0093",
+    "question": "How does track temperature affect performance?",
+    "answer": "Track temp impact: Cold (<20°C) = hard to warm tires, less grip. Optimal (25-35°C) = best grip, consistent performance. Hot (>40°C) = tire degradation increases, grip can decrease. Adjust driving: Cold = aggressive warm-up, smoother inputs. Hot = manage tire temps, avoid excessive sliding.",
+    "context": {
+      "category": "weather",
+      "subcategory": "track_temperature",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0094",
+    "question": "How do I drive in wet conditions?",
+    "answer": "Wet driving: 1) Brake 50-100% earlier, 2) Reduce corner speed 20-30%, 3) Smooth inputs (sudden movements = spin), 4) Avoid painted lines and curbs, 5) Look for grip (racing line may not be optimal), 6) Increase following distance. Patience is key - crashes lose more time than conservative pace.",
+    "context": {
+      "category": "weather",
+      "subcategory": "wet_conditions",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0095",
+    "question": "How does wind affect racing?",
+    "answer": "Wind impact: Headwind = reduces top speed, increases drag, better cooling. Tailwind = higher top speed, less cooling. Crosswind = affects handling, changes braking points, requires steering correction. Adjust: Headwind = draft more, brake earlier. Tailwind = brake later. Crosswind = anticipate push, adjust line.",
+    "context": {
+      "category": "weather",
+      "subcategory": "wind_effects",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0096",
+    "question": "How does the Toyota GR Cup points system work?",
+    "answer": "Points: 1st=25, 2nd=18, 3rd=15, 4th=12, 5th=10, 6th=8, 7th=6, 8th=4, 9th=2, 10th=1. Bonus: Fastest lap=1 point (if in top 10). Strategy: Consistency beats occasional wins. P5 every race > P1 then DNF. Protect points when leading championship.",
+    "context": {
+      "category": "championship",
+      "subcategory": "points_system",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0097",
+    "question": "When should I take risks vs play it safe?",
+    "answer": "Take risks when: Behind in championship, late in season, need positions, nothing to lose. Play safe when: Leading championship, early in season, in points position, mechanical issues. Calculate: Is potential gain worth potential loss? P5 guaranteed vs 50% chance at P3 (risk DNF) = take P5 if leading.",
+    "context": {
+      "category": "championship",
+      "subcategory": "risk_management",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0098",
+    "question": "How do I plan a championship season?",
+    "answer": "Season planning: 1) Set realistic goals (target position), 2) Identify key races (double points, home tracks), 3) Budget resources (tires, parts, testing), 4) Plan improvements (weak areas), 5) Monitor rivals. Review after each race: On target? Adjust strategy? What to improve?",
+    "context": {
+      "category": "championship",
+      "subcategory": "season_planning",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  }
+]

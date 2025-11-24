@@ -1,0 +1,116 @@
+[
+  {
+    "id": "rag_0074",
+    "question": "What is Speed in telemetry?",
+    "answer": "Speed (km/h) measures Vehicle speed. Use it to: Monitor corner entry/exit speeds, identify braking points. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0075",
+    "question": "What is Throttle (aps) in telemetry?",
+    "answer": "Throttle (aps) (%) measures Accelerator pedal position. Use it to: Analyze throttle smoothness, optimize corner exits. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0076",
+    "question": "What is Brake Pressure in telemetry?",
+    "answer": "Brake Pressure (bar) measures Front/rear brake pressure. Use it to: Evaluate braking technique, identify trail braking. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0077",
+    "question": "What is Lateral G (accy_can) in telemetry?",
+    "answer": "Lateral G (accy_can) (G) measures Sideways acceleration. Use it to: Measure cornering speed, identify grip limits. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0078",
+    "question": "What is Longitudinal G (accx_can) in telemetry?",
+    "answer": "Longitudinal G (accx_can) (G) measures Forward/backward acceleration. Use it to: Analyze acceleration and braking performance. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  },
+  {
+    "id": "rag_0079",
+    "question": "What is Steering Angle in telemetry?",
+    "answer": "Steering Angle (degrees) measures Steering wheel angle. Use it to: Evaluate steering smoothness, identify over/understeer. This parameter is essential for understanding vehicle dynamics and driver technique in the Toyota GR86.",
+    "context": {
+      "category": "telemetry",
+      "subcategory": "parameters",
+      "track": null,
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.879886"
+    }
+  }
+]

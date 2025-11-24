@@ -1,0 +1,154 @@
+[
+  {
+    "id": "rag_0055",
+    "question": "Tell me about Sonoma Raceway",
+    "answer": "Sonoma Raceway is a 4.0km circuit with 12 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its flowing layout with many elevation changes.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "sonoma",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.884776"
+    }
+  },
+  {
+    "id": "rag_0056",
+    "question": "What makes Sonoma Raceway unique?",
+    "answer": "Sonoma Raceway is a 4.0km technical circuit with 12 corners and significant elevation changes. The uphill and downhill sections create unique braking and acceleration challenges.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "sonoma",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.884776"
+    }
+  },
+  {
+    "id": "rag_0057",
+    "question": "What's the best strategy for Sonoma Raceway?",
+    "answer": "Strategy for Sonoma Raceway: Standard fuel strategy applies with typical consumption rates. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is important but overtaking is possible.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "sonoma",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.884776"
+    }
+  },
+  {
+    "id": "rag_0058",
+    "question": "What were the weather conditions at Sonoma Raceway Race 1?",
+    "answer": "At Sonoma Raceway Race 1, the track temperature was 32.2°C and air temperature was 15.8°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "sonoma",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.889426"
+    }
+  },
+  {
+    "id": "rag_0059",
+    "question": "What were the top 3 lap times at Sonoma Raceway Race 1?",
+    "answer": "The top 3 lap times at Sonoma Raceway Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "sonoma",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.891425"
+    }
+  },
+  {
+    "id": "rag_0060",
+    "question": "What was the winning time at Sonoma Raceway Race 2?",
+    "answer": "The race winner at Sonoma Raceway Race 2 completed the race in 45:30.730. This represents the fastest overall performance across all 31 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "sonoma",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.898429"
+    }
+  },
+  {
+    "id": "rag_0061",
+    "question": "How many cars competed at Sonoma Raceway Race 2?",
+    "answer": "31 cars competed in Race 2 at Sonoma Raceway. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "sonoma",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.898429"
+    }
+  },
+  {
+    "id": "rag_0062",
+    "question": "What were the top 3 lap times at Sonoma Raceway Race 2?",
+    "answer": "The top 3 lap times at Sonoma Raceway Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "sonoma",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.902427"
+    }
+  }
+]

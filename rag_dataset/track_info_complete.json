@@ -1,0 +1,268 @@
+[
+  {
+    "id": "rag_0001",
+    "question": "Tell me about Barber Motorsports Park",
+    "answer": "Barber Motorsports Park is a 3.7km circuit with 17 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its technical layout with many elevation changes.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "barber",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.564799"
+    }
+  },
+  {
+    "id": "rag_0002",
+    "question": "What makes Barber Motorsports Park unique?",
+    "answer": "Barber Motorsports Park features 17 technical corners with significant elevation changes. The 3.7km layout rewards smooth driving and precise braking. Key challenges include the downhill braking zones and blind apexes.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "barber",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.564799"
+    }
+  },
+  {
+    "id": "rag_0012",
+    "question": "Tell me about Indianapolis Motor Speedway (Road Course)",
+    "answer": "Indianapolis Motor Speedway (Road Course) is a 4.0km circuit with 14 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its flowing layout with high-speed sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "indianapolis",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.716289"
+    }
+  },
+  {
+    "id": "rag_0013",
+    "question": "What makes Indianapolis Motor Speedway (Road Course) unique?",
+    "answer": "Indianapolis Motor Speedway (Road Course) combines the famous oval with an infield road course, creating a unique 4.0km layout with 14 turns. The mix of high-speed oval sections and technical infield corners demands versatility.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "indianapolis",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.716289"
+    }
+  },
+  {
+    "id": "rag_0023",
+    "question": "Tell me about Circuit of The Americas",
+    "answer": "Circuit of The Americas is a 5.5km circuit with 20 turns, running counterclockwise. It's part of the Toyota GR Cup championship. The track is known for its technical layout with high-speed sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "cota",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.906129"
+    }
+  },
+  {
+    "id": "rag_0024",
+    "question": "What makes Circuit of The Americas unique?",
+    "answer": "Circuit of The Americas is a world-class 5.5km circuit with 20 corners, running counterclockwise. The dramatic elevation changes, especially Turn 1's uphill approach, and the technical sector 2 make it highly challenging.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "cota",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.906129"
+    }
+  },
+  {
+    "id": "rag_0033",
+    "question": "Tell me about Sebring International Raceway",
+    "answer": "Sebring International Raceway is a 6.0km circuit with 17 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its technical layout with high-speed sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "sebring",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.051225"
+    }
+  },
+  {
+    "id": "rag_0034",
+    "question": "What makes Sebring International Raceway unique?",
+    "answer": "Sebring International Raceway is a historic 6.0km circuit known for its bumpy surface and 17 challenging corners. The rough track surface tests both car and driver endurance, with unique concrete sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "sebring",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.051225"
+    }
+  },
+  {
+    "id": "rag_0044",
+    "question": "Tell me about Road America",
+    "answer": "Road America is a 6.5km circuit with 14 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its flowing layout with high-speed sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "road_america",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.257819"
+    }
+  },
+  {
+    "id": "rag_0045",
+    "question": "What makes Road America unique?",
+    "answer": "Road America is one of America's longest tracks at 6.5km with 14 turns. The high-speed nature, long straights, and fast corners like the Kink demand bravery and commitment.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "road_america",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.257819"
+    }
+  },
+  {
+    "id": "rag_0055",
+    "question": "Tell me about Sonoma Raceway",
+    "answer": "Sonoma Raceway is a 4.0km circuit with 12 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its flowing layout with many elevation changes.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "sonoma",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.421840"
+    }
+  },
+  {
+    "id": "rag_0056",
+    "question": "What makes Sonoma Raceway unique?",
+    "answer": "Sonoma Raceway is a 4.0km technical circuit with 12 corners and significant elevation changes. The uphill and downhill sections create unique braking and acceleration challenges.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "sonoma",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.421840"
+    }
+  },
+  {
+    "id": "rag_0063",
+    "question": "Tell me about Virginia International Raceway",
+    "answer": "Virginia International Raceway is a 5.3km circuit with 18 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its technical layout with many elevation changes.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "vir",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.626567"
+    }
+  },
+  {
+    "id": "rag_0064",
+    "question": "What makes Virginia International Raceway unique?",
+    "answer": "Virginia International Raceway features 18 corners across 5.3km of flowing, technical layout. Known for elevation changes and the challenging Oak Tree corner, it rewards smooth, committed driving.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "vir",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.626567"
+    }
+  }
+]

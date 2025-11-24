@@ -1,0 +1,74 @@
+[
+  {
+    "id": "rag_0040",
+    "question": "How does track temperature affect performance?",
+    "answer": "Track temperature impact: Cold (<20°C): Hard to warm tires, less grip, longer braking. Optimal (25-35°C): Best grip, consistent tire performance. Hot (>40°C): Tire degradation increases, grip can decrease, risk of overheating. Adjust: Cold = more aggressive warm-up, smoother inputs. Hot = manage tire temps, avoid excessive sliding, consider earlier pit stop.",
+    "context": {
+      "category": "weather",
+      "subcategory": "track_temperature",
+      "track": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  },
+  {
+    "id": "rag_0041",
+    "question": "How do I drive in wet conditions?",
+    "answer": "Wet driving technique: 1) Brake 50-100% earlier (longer distances), 2) Reduce corner speed 20-30%, 3) Smooth inputs (sudden movements = spin), 4) Avoid painted lines and curbs (zero grip), 5) Look for grip (racing line may not be optimal), 6) Increase following distance (spray reduces visibility). Patience is key - crashes lose more time than conservative pace.",
+    "context": {
+      "category": "weather",
+      "subcategory": "wet_conditions",
+      "track": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  },
+  {
+    "id": "rag_0042",
+    "question": "How do I handle a drying track?",
+    "answer": "Drying track strategy: 1) Find grip (explore different lines), 2) Gradually increase pace (test limits carefully), 3) Watch for damp patches (inconsistent grip), 4) Tire choice critical (wet → intermediate → slicks), 5) Track position important (clean air to find grip). Be brave but smart - first to slicks can gain huge advantage, but too early = disaster.",
+    "context": {
+      "category": "weather",
+      "subcategory": "drying_track",
+      "track": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  },
+  {
+    "id": "rag_0043",
+    "question": "How does wind affect racing?",
+    "answer": "Wind impact: Headwind: Reduces top speed, increases drag, better cooling. Tailwind: Higher top speed, less drag, less cooling. Crosswind: Affects handling (push car sideways), changes braking points, requires steering correction. Adjust: Headwind = draft more, brake earlier. Tailwind = brake later, watch for overspeed. Crosswind = anticipate push, adjust line.",
+    "context": {
+      "category": "weather",
+      "subcategory": "wind_effects",
+      "track": null,
+      "difficulty": "intermediate",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  }
+]

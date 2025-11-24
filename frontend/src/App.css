@@ -1,0 +1,440 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  background: #0a0a0b;
+}
+
+.loading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 40px;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-top-color: #c96287;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.error-message {
+  background: #101112;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.error-message h2 {
+  color: #c96287;
+  margin-bottom: 15px;
+}
+
+.error-message p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.error-hint {
+  background: #000000;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.error-hint code {
+  color: #3b82f6;
+  font-size: 14px;
+}
+
+.retry-button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #c96287;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.retry-button:hover {
+  background: #a04d6b;
+  transform: translateY(-2px);
+}
+
+.controls {
+  display: flex;
+  gap: 24px;
+  padding: 24px 40px;
+  margin: 0 20px;
+  background: linear-gradient(135deg, #101112 0%, #0a0a0b 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px 16px 0 0;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.lap-control {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 14px 22px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.lap-control:hover {
+  border-color: rgba(201, 98, 135, 0.5);
+  background: rgba(10, 10, 11, 0.8);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(201, 98, 135, 0.2);
+}
+
+.lap-control label {
+  font-weight: 600;
+  color: #3b82f6;
+  font-size: 14px;
+}
+
+.lap-control input {
+  width: 60px;
+  padding: 8px 10px;
+  background: #101112;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.lap-control input:focus {
+  outline: none;
+  border-color: #c96287;
+  background: #0a0a0b;
+  box-shadow: 0 0 0 3px rgba(201, 98, 135, 0.2);
+}
+
+.lap-control input:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.lap-total {
+  color: #A1A1AA;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.play-pause-button {
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #c96287 0%, #a04d6b 100%);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(201, 98, 135, 0.4);
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.play-pause-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.play-pause-button:hover::before {
+  left: 100%;
+}
+
+.play-pause-button:hover {
+  background: linear-gradient(135deg, #d47399 0%, #b05a7a 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(201, 98, 135, 0.5);
+}
+
+.play-pause-button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(201, 98, 135, 0.4);
+}
+
+/* Optimized Dashboard Layout - Everything Visible */
+.dashboard {
+  flex: 1;
+  padding: 24px 32px 32px 32px;
+  margin: 0 20px 20px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: minmax(400px, 1fr) minmax(280px, auto) minmax(250px, auto) minmax(300px, auto);
+  gap: 20px;
+  min-height: 0;
+  overflow-y: auto;
+  background: linear-gradient(135deg, #0a0a0b 0%, #000000 100%);
+  border-radius: 0 0 16px 16px;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* 3D Track - Top Left */
+.dashboard-3d {
+  grid-column: 1;
+  grid-row: 1;
+  min-height: 400px;
+  height: 100%;
+  display: flex;
+}
+
+/* Tips and Telemetry - Top Middle & Right */
+.dashboard-tips-telemetry {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  min-height: 400px;
+  height: 100%;
+}
+
+.dashboard-tips-telemetry> :first-child {
+  grid-column: 1 / 3;
+}
+
+.dashboard-tips-telemetry> :last-child {
+  grid-column: 3 / 5;
+}
+
+/* Performance - Middle Row (spans full width) */
+.dashboard-performance {
+  grid-column: 1 / 4;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 20px;
+  min-height: 280px;
+  height: auto;
+}
+
+/* Real Race Strategy - Full Width */
+.dashboard-race-strategy {
+  grid-column: 1 / 4;
+  grid-row: 3;
+  min-height: 250px;
+  height: auto;
+}
+
+/* Strategy Cards - Bottom Left */
+.dashboard-strategy {
+  grid-column: 1;
+  grid-row: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  min-height: 300px;
+  height: 100%;
+}
+
+/* Cross-Track Comparison - Bottom Right (spans 2 columns) */
+.dashboard-cross-track {
+  grid-column: 2 / 4;
+  grid-row: 4;
+  min-height: 300px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Compact card styling */
+.card.compact {
+  padding: 20px;
+  height: 100%;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.card.compact:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+.card.compact .card-title {
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  padding-bottom: 12px;
+  flex-shrink: 0;
+}
+
+.card.compact .track-info {
+  margin-bottom: 12px;
+}
+
+.card.compact .info-item {
+  padding: 10px 14px;
+  margin-bottom: 6px;
+  transition: all 0.2s ease;
+}
+
+.card.compact .info-item:hover {
+  background: rgba(255, 255, 255, 0.03);
+  transform: translateX(4px);
+}
+
+.card.compact .info-label {
+  font-size: 11px;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+.card.compact .info-value {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1400px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 20px 24px;
+    margin: 0 16px 16px 16px;
+  }
+
+  .dashboard-3d {
+    grid-column: 1;
+    grid-row: 1;
+    min-height: 400px;
+    height: auto;
+  }
+
+  .dashboard-tips-telemetry {
+    grid-column: 1;
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr;
+    min-height: auto;
+    height: auto;
+  }
+
+  .dashboard-tips-telemetry> :first-child,
+  .dashboard-tips-telemetry> :last-child {
+    grid-column: auto;
+  }
+
+  .dashboard-performance {
+    grid-column: 1;
+    grid-row: 3;
+    grid-template-columns: 1fr;
+    min-height: auto;
+    height: auto;
+  }
+
+  .dashboard-strategy {
+    grid-column: 1;
+    grid-row: 4;
+    min-height: auto;
+    height: auto;
+  }
+
+  .dashboard-cross-track {
+    grid-column: 1;
+    grid-row: 5;
+    min-height: 400px;
+    height: auto;
+  }
+
+  .controls {
+    padding: 16px 24px;
+    margin: 0 16px;
+  }
+
+  .footer {
+    padding: 16px 24px;
+    margin: 0 16px 16px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .dashboard-tips-telemetry,
+  .dashboard-strategy {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px 20px;
+    margin: 0 12px;
+  }
+
+  .dashboard {
+    padding: 16px 20px;
+    margin: 0 12px 12px 12px;
+  }
+
+  .footer {
+    padding: 16px 20px;
+    margin: 0 12px 12px 12px;
+  }
+}
+
+.footer {
+  padding: 20px 40px;
+  margin: 0 20px 20px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #101112 0%, #0a0a0b 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0 0 16px 16px;
+  color: #A1A1AA;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.footer:hover {
+  color: #c96287;
+}

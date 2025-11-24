@@ -1,0 +1,97 @@
+[
+  {
+    "id": "rag_0119",
+    "question": "How do teams analyze speed execution through data?",
+    "answer": "Advanced speed analysis involves: 1) Corner phase breakdown - Divide each corner into entry, mid-corner (apex), and exit phases. Measure speed at each point. 2) Braking analysis - Track brake pressure, brake point location, trail braking profile. Compare to reference lap. 3) Throttle application - Measure throttle position vs steering angle. Smooth correlation = good technique. 4) Lateral G-force - Peak lateral G indicates cornering speed. Compare across laps to track consistency. 5) Minimum speed point - Where driver reaches slowest speed in corner. Earlier = better exit. Teams can identify 0.1-0.3s improvements per corner through detailed analysis.",
+    "context": {
+      "category": "data_analysis",
+      "subcategory": "speed_execution_analysis",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0120",
+    "question": "What metrics measure driver consistency?",
+    "answer": "Consistency is measured through: 1) Lap time standard deviation - Elite drivers: ±0.3s, Good: ±0.5s, Average: ±0.8s. 2) Sector time variation - Analyze consistency in each sector separately. 3) Stint degradation curve - How lap times increase with tire wear. Consistent drivers have smoother curves. 4) Mistake frequency - Count lock-ups, track limits, spins per session. 5) Reference lap delta - How close each lap is to personal best. Consistent drivers can maintain 99% of best pace for entire stint. Consistency is often more valuable than raw speed in endurance racing.",
+    "context": {
+      "category": "data_analysis",
+      "subcategory": "lap_time_consistency_metrics",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0121",
+    "question": "How is car management measured quantitatively?",
+    "answer": "Car management tracking includes: 1) Tire management - Thermal cameras show tire temperature distribution. Even temps = good management. Track stint length vs predicted. 2) Brake management - Monitor brake disc temps, pad wear. Smooth braking preserves brakes for full race. 3) Fuel consumption - Compare actual vs predicted consumption. Efficient drivers save 1-2 laps of fuel. 4) Component stress - Measure G-forces, curb strikes, gear shifts. Smooth drivers reduce wear. 5) Degradation rate - Compare lap time drop-off to teammates. Good management = slower degradation. Teams can quantify how much time car management saves over a race.",
+    "context": {
+      "category": "data_analysis",
+      "subcategory": "car_management_metrics",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0122",
+    "question": "How do teams measure driver adaptability?",
+    "answer": "Adaptability is quantified through: 1) Wet vs dry pace - Compare lap time percentage in wet vs dry. Adaptable drivers lose less time in wet. 2) New track learning - Measure improvement rate at unfamiliar circuits. Fast learners reach 98% pace in fewer laps. 3) Setup sensitivity - Test performance with different setups. Adaptable drivers perform well with various configurations. 4) Simulator correlation - Compare sim pace to real-world pace across conditions. 5) Tire compound adaptation - Performance across different tire compounds. 6) Temperature range - Consistency across hot and cold conditions. Adaptable drivers are valuable for teams racing in varied conditions.",
+    "context": {
+      "category": "data_analysis",
+      "subcategory": "adaptability_measurement",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0123",
+    "question": "What statistics predict junior driver success?",
+    "answer": "Key junior racing metrics include: 1) Win ratio - Wins divided by races entered. Elite: >20%, Good: 10-20%. 2) Podium rate - Top 3 finishes percentage. Consistent performers: >40%. 3) Pole position rate - Qualifying performance indicator. >15% shows raw speed. 4) Points per race - Average points scored. Accounts for consistency and speed. 5) Teammate comparison - Head-to-head qualifying and race results vs teammate. Should win >60%. 6) Incident rate - Crashes and penalties per race. Lower is better. 7) Wet weather performance - Specific wet race results. Separates talent. These stats help teams identify promising talent for development programs.",
+    "context": {
+      "category": "data_analysis",
+      "subcategory": "junior_driver_statistics",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  }
+]

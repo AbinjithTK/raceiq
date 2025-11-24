@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Tracks API</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #1a1a2e; color: white; }
+        .track { padding: 10px; margin: 5px; background: #16213e; border-radius: 5px; }
+        button { padding: 10px 20px; margin: 10px; background: #0f3460; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #e94560; }
+    </style>
+</head>
+<body>
+    <h1>🏁 Track API Test</h1>
+    <button onclick="loadTracks()">Load Tracks</button>
+    <div id="result"></div>
+
+    <script>
+        async function loadTracks() {
+            try {
+                const response = await fetch('http://localhost:8001/api/tracks');
+                const data = await response.json();
+                
+                const resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = '<h2>Available Tracks:</h2>';
+                
+                data.tracks.forEach(track => {
+                    const trackInfo = data.summary[track];
+                    resultDiv.innerHTML += `
+                        <div class="track">
+                            <strong>${trackInfo.name}</strong><br>
+                            Length: ${trackInfo.length_km} km | 
+                            Turns: ${trackInfo.turns} | 
+                            Direction: ${trackInfo.direction}
+                        </div>
+                    `;
+                });
+            } catch (error) {
+                document.getElementById('result').innerHTML = 
+                    `<div style="color: red;">Error: ${error.message}</div>`;
+            }
+        }
+    </script>
+</body>
+</html>

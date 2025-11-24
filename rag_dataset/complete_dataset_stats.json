@@ -1,0 +1,42 @@
+{
+  "total_entries": 98,
+  "processing_stats": {
+    "tracks_processed": 7,
+    "races_processed": 14,
+    "files_analyzed": 67,
+    "entries_generated": 98
+  },
+  "categories": {
+    "track_info": 14,
+    "strategy": 11,
+    "race_results": 26,
+    "weather": 15,
+    "lap_times": 14,
+    "telemetry": 6,
+    "coaching": 5,
+    "vehicle_dynamics": 4,
+    "championship": 3
+  },
+  "tracks": {
+    "barber": 11,
+    "indianapolis": 11,
+    "cota": 10,
+    "sebring": 11,
+    "road_america": 11,
+    "sonoma": 8,
+    "vir": 11
+  },
+  "difficulty_levels": {
+    "beginner": 33,
+    "intermediate": 47,
+    "advanced": 18
+  },
+  "data_sources": {
+    "track_config": 14,
+    "expert_knowledge": 32,
+    "results": 26,
+    "weather": 12,
+    "best_laps": 14
+  },
+  "generated_date": "2025-11-23T21:03:45.915907"
+}

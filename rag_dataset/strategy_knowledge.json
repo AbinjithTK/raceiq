@@ -1,0 +1,164 @@
+[
+  {
+    "id": "rag_0007",
+    "question": "How does Circuit of The Americas's length affect strategy?",
+    "answer": "At 5.5km, Circuit of The Americas is a long circuit. This means: 1) Higher fuel consumption per lap (plan accordingly), 2) Greater tire degradation per lap (monitor closely), 3) Longer pit stop cycles (strategic timing crucial), 4) More time to make up positions (patience pays off). Typical pit windows are laps 12-15 or 18-22 in a 27-lap race.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_length",
+      "track": "cota",
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.441041"
+    }
+  },
+  {
+    "id": "rag_0010",
+    "question": "How does Sebring International Raceway's length affect strategy?",
+    "answer": "At 6.0km, Sebring International Raceway is a long circuit. This means: 1) Higher fuel consumption per lap (plan accordingly), 2) Greater tire degradation per lap (monitor closely), 3) Longer pit stop cycles (strategic timing crucial), 4) More time to make up positions (patience pays off). Typical pit windows are laps 12-15 or 18-22 in a 27-lap race.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_length",
+      "track": "sebring",
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.441041"
+    }
+  },
+  {
+    "id": "rag_0013",
+    "question": "How does Road America's length affect strategy?",
+    "answer": "At 6.5km, Road America is a long circuit. This means: 1) Higher fuel consumption per lap (plan accordingly), 2) Greater tire degradation per lap (monitor closely), 3) Longer pit stop cycles (strategic timing crucial), 4) More time to make up positions (patience pays off). Typical pit windows are laps 12-15 or 18-22 in a 27-lap race.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_length",
+      "track": "road_america",
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.441041"
+    }
+  },
+  {
+    "id": "rag_0018",
+    "question": "How does Virginia International Raceway's length affect strategy?",
+    "answer": "At 5.3km, Virginia International Raceway is a long circuit. This means: 1) Higher fuel consumption per lap (plan accordingly), 2) Greater tire degradation per lap (monitor closely), 3) Longer pit stop cycles (strategic timing crucial), 4) More time to make up positions (patience pays off). Typical pit windows are laps 12-15 or 18-22 in a 27-lap race.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_length",
+      "track": "vir",
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.441041"
+    }
+  },
+  {
+    "id": "rag_0025",
+    "question": "When should I use an undercut strategy?",
+    "answer": "Use an undercut when: 1) You're within 3 seconds of the car ahead, 2) Tire degradation is significant (>0.3s/lap), 3) Pit loss time is low (<25s), 4) Track has limited overtaking opportunities. Pit 2-3 laps before your competitor, push hard on fresh tires to build a gap, and emerge ahead after their pit stop. Most effective laps 12-14 in a 27-lap race.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "undercut_strategy",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.441041"
+    }
+  },
+  {
+    "id": "rag_0026",
+    "question": "What is an overcut and when does it work?",
+    "answer": "An overcut is staying out longer than your competitor after they pit. It works when: 1) Your tires are still performing well, 2) Track is clear (no traffic), 3) You can push hard for 3-5 laps, 4) Pit loss time is high. Stay out, set fast laps while they're in traffic on cold tires, pit later and emerge ahead. Risky but effective in clean air.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "overcut_strategy",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.441041"
+    }
+  },
+  {
+    "id": "rag_0027",
+    "question": "How do I respond to a safety car?",
+    "answer": "Safety car strategy depends on your position: If leading: Stay out if tires are good, pit if they're old. If mid-pack: Usually pit (free stop), take fresh tires. If at back: Gamble on staying out for track position. Key factors: Tire age (>15 laps = pit), fuel level (<40% = top up), gap to cars ahead/behind. Always communicate with your engineer before deciding.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "safety_car_strategy",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.441041"
+    }
+  },
+  {
+    "id": "rag_0028",
+    "question": "How do I manage fuel during a race?",
+    "answer": "Fuel management involves: 1) Calculate consumption (typically 2-3 liters/lap in GR86), 2) Monitor fuel level vs laps remaining, 3) If short: Lift-and-coast on straights, short-shift (shift 500rpm early), reduce brake drag, 4) If comfortable: Push normally. Running out costs 30+ seconds, conservative pace costs 0.5-1s/lap. Better to finish slow than not finish.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "fuel_management",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.441041"
+    }
+  },
+  {
+    "id": "rag_0029",
+    "question": "How do I extend tire life?",
+    "answer": "Extend tire life by: 1) Smooth inputs (gradual throttle/brake), 2) Avoid wheelspin (hurts rear tires), 3) Minimize sliding (scrubbing kills fronts), 4) Proper tire temperatures (25-35°C optimal), 5) Strategic lift-and-coast. Trade 0.2-0.3s/lap early to gain 1-2s/lap advantage late in stint. Smooth is fast AND kind to tires.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "tire_management",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.441041"
+    }
+  }
+]

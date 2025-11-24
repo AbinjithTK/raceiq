@@ -1,0 +1,268 @@
+[
+  {
+    "id": "rag_0007",
+    "question": "What were the top 3 lap times at Barber Motorsports Park Race 1?",
+    "answer": "The top 3 lap times at Barber Motorsports Park Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "barber",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.758675"
+    }
+  },
+  {
+    "id": "rag_0011",
+    "question": "What were the top 3 lap times at Barber Motorsports Park Race 2?",
+    "answer": "The top 3 lap times at Barber Motorsports Park Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "barber",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.773910"
+    }
+  },
+  {
+    "id": "rag_0018",
+    "question": "What were the top 3 lap times at Indianapolis Motor Speedway (Road Course) Race 1?",
+    "answer": "The top 3 lap times at Indianapolis Motor Speedway (Road Course) Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "indianapolis",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.790959"
+    }
+  },
+  {
+    "id": "rag_0022",
+    "question": "What were the top 3 lap times at Indianapolis Motor Speedway (Road Course) Race 2?",
+    "answer": "The top 3 lap times at Indianapolis Motor Speedway (Road Course) Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "indianapolis",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.806616"
+    }
+  },
+  {
+    "id": "rag_0029",
+    "question": "What were the top 3 lap times at Circuit of The Americas Race 1?",
+    "answer": "The top 3 lap times at Circuit of The Americas Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "cota",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.819546"
+    }
+  },
+  {
+    "id": "rag_0032",
+    "question": "What were the top 3 lap times at Circuit of The Americas Race 2?",
+    "answer": "The top 3 lap times at Circuit of The Americas Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "cota",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.830714"
+    }
+  },
+  {
+    "id": "rag_0039",
+    "question": "What were the top 3 lap times at Sebring International Raceway Race 1?",
+    "answer": "The top 3 lap times at Sebring International Raceway Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "sebring",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.845578"
+    }
+  },
+  {
+    "id": "rag_0043",
+    "question": "What were the top 3 lap times at Sebring International Raceway Race 2?",
+    "answer": "The top 3 lap times at Sebring International Raceway Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "sebring",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.857614"
+    }
+  },
+  {
+    "id": "rag_0050",
+    "question": "What were the top 3 lap times at Road America Race 1?",
+    "answer": "The top 3 lap times at Road America Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "road_america",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.867640"
+    }
+  },
+  {
+    "id": "rag_0054",
+    "question": "What were the top 3 lap times at Road America Race 2?",
+    "answer": "The top 3 lap times at Road America Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "road_america",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.879772"
+    }
+  },
+  {
+    "id": "rag_0059",
+    "question": "What were the top 3 lap times at Sonoma Raceway Race 1?",
+    "answer": "The top 3 lap times at Sonoma Raceway Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "sonoma",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.891425"
+    }
+  },
+  {
+    "id": "rag_0062",
+    "question": "What were the top 3 lap times at Sonoma Raceway Race 2?",
+    "answer": "The top 3 lap times at Sonoma Raceway Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "sonoma",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.902427"
+    }
+  },
+  {
+    "id": "rag_0069",
+    "question": "What were the top 3 lap times at Virginia International Raceway Race 1?",
+    "answer": "The top 3 lap times at Virginia International Raceway Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "vir",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.915431"
+    }
+  },
+  {
+    "id": "rag_0073",
+    "question": "What were the top 3 lap times at Virginia International Raceway Race 2?",
+    "answer": "The top 3 lap times at Virginia International Raceway Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "vir",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.927953"
+    }
+  }
+]

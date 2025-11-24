@@ -1,0 +1,97 @@
+[
+  {
+    "id": "rag_0124",
+    "question": "What telemetry data points are most important?",
+    "answer": "Critical telemetry parameters: 1) Speed trace - Shows speed at every point on track. Compare to reference to find time loss. 2) Throttle position - 0-100% application. Smooth progression indicates good technique. 3) Brake pressure - Front and rear pressure in bar. Peak pressure and trail braking visible. 4) Steering angle - Wheel position in degrees. Smooth inputs = fast, jerky = slow. 5) Lateral G-force - Cornering force. Peak G shows grip limit usage. 6) Longitudinal G-force - Acceleration/braking force. Shows traction usage. 7) Gear selection - Which gear in each corner. 8) Tire temperatures - Surface temps indicate tire management. Teams analyze thousands of data points per lap to find improvements.",
+    "context": {
+      "category": "performance_metrics",
+      "subcategory": "telemetry_data_points",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0125",
+    "question": "How do you analyze performance in corner phases?",
+    "answer": "Corner phase breakdown is essential: 1) Entry phase - From brake point to turn-in. Measure: Brake point location, peak brake pressure, entry speed. Goal: Maximum entry speed without compromising exit. 2) Mid-corner phase - Turn-in to apex. Measure: Minimum speed, apex speed, lateral G-force. Goal: Carry maximum speed through apex. 3) Exit phase - Apex to corner exit. Measure: Throttle application point, exit speed, acceleration. Goal: Earliest full throttle for best straight-line speed. Compare each phase to reference lap. Often find 0.1-0.2s per phase = 0.3-0.6s per corner. Focus on weakest phase first for biggest gains.",
+    "context": {
+      "category": "performance_metrics",
+      "subcategory": "corner_phase_analysis",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0126",
+    "question": "How do you benchmark driver performance?",
+    "answer": "Benchmarking methods: 1) Teammate comparison - Most direct comparison with same car. Should be within 0.2-0.3s in qualifying. 2) Reference lap - Create ideal lap from best sectors. Shows theoretical maximum. 3) Historical data - Compare to previous years at same track. 4) Simulator correlation - Validate real-world pace against sim predictions. 5) Class leaders - Compare to fastest in class across multiple tracks. 6) Improvement rate - Track progress over season. Good development = consistent improvement. Benchmarking identifies strengths to leverage and weaknesses to improve.",
+    "context": {
+      "category": "performance_metrics",
+      "subcategory": "benchmark_comparison",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0127",
+    "question": "How do teams monitor performance during a race?",
+    "answer": "Live monitoring includes: 1) Sector times - Real-time comparison to best and competitors. Identify pace changes immediately. 2) Gap management - Track gaps to cars ahead/behind. Adjust strategy accordingly. 3) Tire degradation - Monitor lap time drop-off. Predict pit window. 4) Fuel consumption - Track usage vs prediction. Adjust strategy if needed. 5) Brake temps - Watch for overheating. May need cooling lap. 6) Incident detection - Identify lock-ups, track limits, mistakes. Provide feedback. 7) Weather changes - Monitor conditions, prepare for tire changes. Real-time data allows teams to react quickly to changing situations.",
+    "context": {
+      "category": "performance_metrics",
+      "subcategory": "real-time_performance_monitoring",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.933992"
+    }
+  },
+  {
+    "id": "rag_0128",
+    "question": "What's the process for post-session data analysis?",
+    "answer": "Systematic post-session review: 1) Initial overview - Review lap times, sector times, incidents. Identify patterns. 2) Telemetry comparison - Overlay driver vs reference lap. Find specific areas of time loss. 3) Video correlation - Match telemetry to video. See what driver is doing differently. 4) Driver debrief - Discuss findings with driver. Get their perspective on car behavior. 5) Setup correlation - Determine if setup changes had desired effect. 6) Action items - Create specific list of improvements for next session. 7) Documentation - Record findings for future reference. Thorough analysis between sessions is crucial for continuous improvement. Teams that analyze well improve faster.",
+    "context": {
+      "category": "performance_metrics",
+      "subcategory": "post-session_analysis_process",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.933992"
+    }
+  }
+]

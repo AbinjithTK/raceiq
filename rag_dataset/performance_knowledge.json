@@ -1,0 +1,92 @@
+[
+  {
+    "id": "rag_0035",
+    "question": "How do I analyze my lap times?",
+    "answer": "Analyze lap times by: 1) Compare to best lap (identify delta), 2) Check sector times (find weak sectors), 3) Look for patterns (degradation, consistency), 4) Compare to competitors (where are they faster?), 5) Consider conditions (traffic, tire age, fuel load). Focus on sectors where you lose most time. A 0.5s improvement in your weakest sector is easier than 0.1s in three sectors.",
+    "context": {
+      "category": "performance",
+      "subcategory": "lap_time_analysis",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  },
+  {
+    "id": "rag_0036",
+    "question": "What do sector times tell me?",
+    "answer": "Sector times reveal: S1 (usually entry/braking zones), S2 (mid-corner/technical sections), S3 (exits/acceleration zones). If S1 is slow: Brake later, carry more entry speed. If S2 is slow: Work on mid-corner technique, racing line. If S3 is slow: Better exits, earlier throttle application. Compare your sectors to fastest lap sectors to find biggest gains.",
+    "context": {
+      "category": "performance",
+      "subcategory": "sector_analysis",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  },
+  {
+    "id": "rag_0037",
+    "question": "What is good consistency?",
+    "answer": "Consistency measured by lap time standard deviation: Excellent: ±0.3s, Good: ±0.5s, Average: ±0.8s, Poor: >1.0s. Inconsistency causes: Fatigue, poor reference points, varying technique, traffic, tire degradation. Improve by: Using consistent reference points, maintaining physical fitness, practicing mental focus, managing tire/fuel consistently.",
+    "context": {
+      "category": "performance",
+      "subcategory": "consistency_metrics",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  },
+  {
+    "id": "rag_0038",
+    "question": "How do I manage gaps to other cars?",
+    "answer": "Gap management: If ahead: Maintain 2-3s gap (safe from undercut), push if gap shrinks, manage tires if gap grows. If behind: Within 1s = attack mode, 1-3s = pressure and wait, >3s = focus on own pace. Monitor gap trends: Growing = they're faster (change approach), Shrinking = you're faster (prepare to attack), Stable = matched pace (strategy will decide).",
+    "context": {
+      "category": "performance",
+      "subcategory": "gap_analysis",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  },
+  {
+    "id": "rag_0039",
+    "question": "How do I track tire degradation?",
+    "answer": "Track degradation by: 1) Monitor lap times (increasing = degrading), 2) Feel for grip loss (sliding, longer braking), 3) Check sector times (usually S3 degrades first), 4) Compare to reference lap (delta growing = degradation), 5) Note lap count (typically degrades after lap 10-12). Degradation >0.5s/lap = consider pitting soon. >1.0s/lap = pit immediately.",
+    "context": {
+      "category": "performance",
+      "subcategory": "tire_degradation_tracking",
+      "track": null,
+      "difficulty": "advanced",
+      "data_source": "analysis"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T20:49:39.442040"
+    }
+  }
+]

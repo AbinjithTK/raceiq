@@ -1,0 +1,87 @@
+# RaceIQ - Simple Submission
+
+## Inspiration
+
+Race car drivers need help understanding their data. Professional teams have engineers who look at the numbers and tell drivers "you're braking too early" or "you need to pit in 3 laps." But most racers don't have this help - they just see confusing spreadsheets. We wanted to build a tool that acts like a race engineer, analyzing real race data and giving clear advice.
+
+## What it does
+
+RaceIQ takes real race data from Toyota GR Cup races and turns it into useful information:
+
+- **Shows a 3D track** with colors showing where you're fast (green) or slow (red)
+- **Calculates fuel usage** based on your actual speed to tell you if you need to pit
+- **Analyzes your pace** by comparing your lap times to other drivers
+- **Tracks tire wear** by watching how your lap times get slower
+- **Finds where you're losing time** by comparing your sectors to your best
+- **Compares performance across 7 different tracks** to show your strengths
+- **Answers questions** using Google Vertex AI - ask "where am I slow?" and get specific answers
+
+Everything uses real data from actual races - 579 lap records with real times, speeds, and GPS coordinates.
+
+## How we built it
+
+**Data:**
+- Got CSV files from Toyota GR Cup races at 7 tracks
+- 579 lap records with lap times, sector times, speeds, and GPS data
+- Wrote Python code to read and clean the data
+
+**Backend (Python):**
+- Built analyzers that calculate fuel usage, pace, tire wear, and pit strategy
+- Created a FastAPI server with 20+ endpoints
+- All calculations use the real race data from CSV files
+
+**Frontend (React):**
+- Made a dashboard showing all the race information
+- Used Three.js to draw the 3D track
+- Added charts showing tire wear and performance
+- Made it look good with animations
+
+**AI (Vertex AI):**
+- Created a knowledge base with 128 racing questions and answers
+- Used Google Vertex AI to power a chatbot
+- The AI can answer racing questions using the knowledge base
+
+**Tech used:**
+- Python, FastAPI, pandas for backend
+- React, Three.js, Recharts for frontend  
+- Google Vertex AI for the chatbot
+- CSV files for all the race data
+
+## Challenges we ran into
+
+- **GPS data was messy** - had to clean it up to make accurate track maps
+- **Too much data** - telemetry files are huge, had to use caching and sampling
+- **Started with fake data** - rewrote everything to use 100% real race data
+- **Bad lap numbers** - sometimes the system recorded lap 32768 (an error), had to filter these out
+- **Different file formats** - each track's data was slightly different
+- **Slow 3D graphics** - had to optimize the rendering to run smoothly
+- **Learning Vertex AI** - figuring out how to structure the knowledge base and integrate the API
+
+## Accomplishments that we're proud of
+
+- **100% real data** - every number comes from actual race results, no fake data
+- **Works with 7 tracks** - Barber, COTA, Indianapolis, Road America, Sebring, Sonoma, VIR
+- **Accurate calculations** - fuel, pace, tire wear all based on real patterns
+- **Good 3D visualization** - smooth animation with speed heatmaps
+- **AI integration** - successfully connected Vertex AI with racing knowledge
+- **Clean code** - well-organized, tested, and documented
+
+## What we learned
+
+- Real race data is messy and needs lots of cleaning
+- Caching makes everything much faster
+- Racing strategy is complex - fuel, tires, pace all matter
+- Building a good knowledge base is key for AI to give useful answers
+- 3D graphics need optimization to run smoothly
+- Full-stack development requires connecting many pieces together
+
+## What's next for RaceIQ
+
+- **Better AI** - expand the knowledge base with more race data
+- **Deploy to Google Cloud** - use Cloud Run, Cloud Storage, and Cloud Build
+- **Live race data** - stream telemetry during actual races
+- **Weather integration** - use weather data to adjust strategy
+- **Mobile app** - make a version drivers can use in the car
+- **More racing series** - support other types of racing beyond Toyota GR Cup
+- **Voice control** - let drivers ask questions by talking
+- **Advanced features** - traffic analysis, multi-race strategy, championship planning

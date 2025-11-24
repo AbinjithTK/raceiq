@@ -1,0 +1,78 @@
+[
+  {
+    "id": "rag_0089",
+    "question": "What is understeer and how do I fix it?",
+    "answer": "Understeer = front tires lose grip first, car won't turn. Causes: Too much entry speed, early throttle, wrong line. Fixes: Brake earlier, slower entry, later apex, trail brake more, reduce mid-corner throttle. Driving around it requires patience.",
+    "context": {
+      "category": "vehicle_dynamics",
+      "subcategory": "understeer",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0090",
+    "question": "What is oversteer and how do I fix it?",
+    "answer": "Oversteer = rear tires lose grip first, car rotates too much. Causes: Too much throttle, lift-off mid-corner, aggressive inputs. Fixes: Smoother throttle, avoid sudden lift, earlier apex, reduce trail braking. Catch slides early with steering correction.",
+    "context": {
+      "category": "vehicle_dynamics",
+      "subcategory": "oversteer",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0091",
+    "question": "How does weight transfer affect handling?",
+    "answer": "Weight transfer: Braking = weight to front (more front grip). Accelerating = weight to rear (more rear grip). Cornering = weight to outside. Use it: Trail brake to keep weight on front for turn-in, smooth throttle to transfer weight to rear for traction.",
+    "context": {
+      "category": "vehicle_dynamics",
+      "subcategory": "weight transfer",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0092",
+    "question": "How does tire pressure affect performance?",
+    "answer": "Tire pressure effects: Too low = more grip but overheats, wears faster. Too high = less grip, bouncy, uneven wear. Optimal: 30-35 PSI (hot) for GR86. Adjust: +2 PSI if overheating, -2 PSI if not warming up. Check after 3-5 laps when hot.",
+    "context": {
+      "category": "vehicle_dynamics",
+      "subcategory": "tire pressure",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  }
+]

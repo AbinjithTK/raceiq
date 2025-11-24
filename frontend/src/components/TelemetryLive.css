@@ -1,0 +1,293 @@
+.telemetry-live {
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.12) 0%, rgba(46, 204, 113, 0.12) 100%);
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.telemetry-live:hover {
+  border-color: rgba(52, 152, 219, 0.3);
+  box-shadow: 0 6px 24px rgba(52, 152, 219, 0.2);
+}
+
+.telemetry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.telemetry-legend {
+  display: flex;
+  gap: 16px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.legend-dot.current {
+  background: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.6);
+}
+
+.legend-dot.optimal {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.telemetry-gauges {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-shrink: 0;
+}
+
+.gauge-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 8px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.gauge-item:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.gauge-label {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+}
+
+.gauge-value-container {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.gauge-value {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Courier New', monospace;
+  line-height: 1;
+}
+
+.gauge-optimal {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Courier New', monospace;
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 0.7;
+}
+
+.gauge-value.speed {
+  color: #3498db;
+  text-shadow: 0 0 20px rgba(52, 152, 219, 0.5);
+}
+
+.gauge-value.throttle {
+  color: #2ecc71;
+  text-shadow: 0 0 20px rgba(46, 204, 113, 0.5);
+}
+
+.gauge-value.brake {
+  color: #e74c3c;
+  text-shadow: 0 0 20px rgba(231, 76, 60, 0.5);
+}
+
+.gauge-value.gear {
+  color: #f39c12;
+  text-shadow: 0 0 20px rgba(243, 156, 18, 0.5);
+}
+
+.gauge-value.rpm {
+  color: #9b59b6;
+  text-shadow: 0 0 20px rgba(155, 89, 182, 0.5);
+}
+
+.gauge-unit {
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.gauge-bar {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.gauge-fill {
+  height: 100%;
+  transition: width 0.1s linear;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gauge-fill-ghost {
+  height: 100%;
+  transition: width 0.1s linear;
+  border-radius: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.speed-ghost {
+  background: linear-gradient(90deg, rgba(52, 152, 219, 0.5) 0%, rgba(41, 128, 185, 0.5) 100%);
+}
+
+.throttle-ghost {
+  background: linear-gradient(90deg, rgba(46, 204, 113, 0.5) 0%, rgba(39, 174, 96, 0.5) 100%);
+}
+
+.brake-ghost {
+  background: linear-gradient(90deg, rgba(231, 76, 60, 0.5) 0%, rgba(192, 57, 43, 0.5) 100%);
+}
+
+.gauge-delta {
+  font-size: 9px;
+  font-weight: 600;
+  margin-top: 2px;
+  font-family: 'Courier New', monospace;
+}
+
+.speed-fill {
+  background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.6);
+}
+
+.throttle-fill {
+  background: linear-gradient(90deg, #2ecc71 0%, #27ae60 100%);
+  box-shadow: 0 0 10px rgba(46, 204, 113, 0.6);
+}
+
+.brake-fill {
+  background: linear-gradient(90deg, #e74c3c 0%, #c0392b 100%);
+  box-shadow: 0 0 10px rgba(231, 76, 60, 0.6);
+}
+
+.rpm-fill {
+  background: linear-gradient(90deg, #9b59b6 0%, #8e44ad 100%);
+  box-shadow: 0 0 10px rgba(155, 89, 182, 0.6);
+}
+
+.telemetry-chart {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  flex: 1;
+  min-height: 0;
+}
+
+.telemetry-paused {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.performance-indicator {
+  margin-top: 10px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  animation: fadeIn 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+}
+
+.indicator-good {
+  background: rgba(46, 204, 113, 0.25);
+  border: 2px solid rgba(46, 204, 113, 0.5);
+  color: #2ecc71;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.indicator-improve {
+  background: rgba(243, 156, 18, 0.25);
+  border: 2px solid rgba(243, 156, 18, 0.5);
+  color: #f39c12;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.indicator-icon {
+  font-size: 16px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .telemetry-gauges {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gauge-value {
+    font-size: 28px;
+  }
+}

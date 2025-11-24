@@ -1,0 +1,211 @@
+[
+  {
+    "id": "rag_0003",
+    "question": "What's the best strategy for Barber Motorsports Park?",
+    "answer": "Strategy for Barber Motorsports Park: Shorter lap length means more laps and more opportunities to make up positions. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is crucial.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "barber",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.747766"
+    }
+  },
+  {
+    "id": "rag_0014",
+    "question": "What's the best strategy for Indianapolis Motor Speedway (Road Course)?",
+    "answer": "Strategy for Indianapolis Motor Speedway (Road Course): Standard fuel strategy applies with typical consumption rates. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is important but overtaking is possible.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "indianapolis",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.780261"
+    }
+  },
+  {
+    "id": "rag_0025",
+    "question": "What's the best strategy for Circuit of The Americas?",
+    "answer": "Strategy for Circuit of The Americas: Standard fuel strategy applies with typical consumption rates. High corner count increases tire degradation. Consider tire management strategy. The counterclockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is crucial.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "cota",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.812515"
+    }
+  },
+  {
+    "id": "rag_0035",
+    "question": "What's the best strategy for Sebring International Raceway?",
+    "answer": "Strategy for Sebring International Raceway: Fuel management is critical due to the long lap distance. Monitor consumption closely. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is crucial.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "sebring",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.836915"
+    }
+  },
+  {
+    "id": "rag_0046",
+    "question": "What's the best strategy for Road America?",
+    "answer": "Strategy for Road America: Fuel management is critical due to the long lap distance. Monitor consumption closely. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is important but overtaking is possible.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "road_america",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.861129"
+    }
+  },
+  {
+    "id": "rag_0057",
+    "question": "What's the best strategy for Sonoma Raceway?",
+    "answer": "Strategy for Sonoma Raceway: Standard fuel strategy applies with typical consumption rates. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is important but overtaking is possible.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "sonoma",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.884776"
+    }
+  },
+  {
+    "id": "rag_0065",
+    "question": "What's the best strategy for Virginia International Raceway?",
+    "answer": "Strategy for Virginia International Raceway: Standard fuel strategy applies with typical consumption rates. High corner count increases tire degradation. Consider tire management strategy. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is crucial.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "vir",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.908424"
+    }
+  },
+  {
+    "id": "rag_0085",
+    "question": "When should I use an undercut strategy?",
+    "answer": "Use an undercut when: 1) Within 3 seconds of car ahead, 2) Tire degradation is significant (>0.3s/lap), 3) Pit loss time is low (<25s), 4) Limited overtaking opportunities. Pit 2-3 laps before competitor, push hard on fresh tires. Most effective laps 12-14 in a 27-lap race.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "undercut",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0086",
+    "question": "What is an overcut strategy?",
+    "answer": "An overcut is staying out longer after competitor pits. Works when: 1) Your tires are still performing, 2) Track is clear (no traffic), 3) You can push hard for 3-5 laps, 4) Pit loss time is high. Stay out, set fast laps, pit later and emerge ahead.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "overcut",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0087",
+    "question": "How do I respond to a safety car?",
+    "answer": "Safety car strategy depends on position: If leading: Stay out if tires good, pit if old. If mid-pack: Usually pit (free stop), take fresh tires. If at back: Gamble on staying out for track position. Key factors: Tire age (>15 laps = pit), fuel level, gap to cars ahead/behind.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "safety car",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0088",
+    "question": "How do I manage fuel during a race?",
+    "answer": "Fuel management: 1) Calculate consumption (2-3 liters/lap in GR86), 2) Monitor fuel vs laps remaining, 3) If short: Lift-and-coast, short-shift (500rpm early), reduce brake drag, 4) If comfortable: Push normally. Running out costs 30+ seconds, conservative pace costs 0.5-1s/lap.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "fuel management",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  }
+]

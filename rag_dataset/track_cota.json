@@ -1,0 +1,192 @@
+[
+  {
+    "id": "rag_0023",
+    "question": "Tell me about Circuit of The Americas",
+    "answer": "Circuit of The Americas is a 5.5km circuit with 20 turns, running counterclockwise. It's part of the Toyota GR Cup championship. The track is known for its technical layout with high-speed sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "cota",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.906129"
+    }
+  },
+  {
+    "id": "rag_0024",
+    "question": "What makes Circuit of The Americas unique?",
+    "answer": "Circuit of The Americas is a world-class 5.5km circuit with 20 corners, running counterclockwise. The dramatic elevation changes, especially Turn 1's uphill approach, and the technical sector 2 make it highly challenging.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "cota",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.906129"
+    }
+  },
+  {
+    "id": "rag_0025",
+    "question": "What's the best strategy for Circuit of The Americas?",
+    "answer": "Strategy for Circuit of The Americas: Standard fuel strategy applies with typical consumption rates. High corner count increases tire degradation. Consider tire management strategy. The counterclockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is crucial.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "cota",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.906129"
+    }
+  },
+  {
+    "id": "rag_0026",
+    "question": "What was the winning time at Circuit of The Americas Race 1?",
+    "answer": "The race winner at Circuit of The Americas Race 1 completed the race in 45:57.575. This represents the fastest overall performance across all 31 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "cota",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.928146"
+    }
+  },
+  {
+    "id": "rag_0027",
+    "question": "How many cars competed at Circuit of The Americas Race 1?",
+    "answer": "31 cars competed in Race 1 at Circuit of The Americas. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "cota",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.928146"
+    }
+  },
+  {
+    "id": "rag_0028",
+    "question": "What were the weather conditions at Circuit of The Americas Race 1?",
+    "answer": "At Circuit of The Americas Race 1, the track temperature was 43.2°C and air temperature was 28.69°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "cota",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.939303"
+    }
+  },
+  {
+    "id": "rag_0029",
+    "question": "What were the top 3 lap times at Circuit of The Americas Race 1?",
+    "answer": "The top 3 lap times at Circuit of The Americas Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "cota",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.949162"
+    }
+  },
+  {
+    "id": "rag_0030",
+    "question": "What was the winning time at Circuit of The Americas Race 2?",
+    "answer": "The race winner at Circuit of The Americas Race 2 completed the race in 46:39.087. This represents the fastest overall performance across all 31 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "cota",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.990072"
+    }
+  },
+  {
+    "id": "rag_0031",
+    "question": "How many cars competed at Circuit of The Americas Race 2?",
+    "answer": "31 cars competed in Race 2 at Circuit of The Americas. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "cota",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:44.990072"
+    }
+  },
+  {
+    "id": "rag_0032",
+    "question": "What were the top 3 lap times at Circuit of The Americas Race 2?",
+    "answer": "The top 3 lap times at Circuit of The Americas Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "cota",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:03:45.020470"
+    }
+  }
+]

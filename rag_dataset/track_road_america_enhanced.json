@@ -1,0 +1,211 @@
+[
+  {
+    "id": "rag_0044",
+    "question": "Tell me about Road America",
+    "answer": "Road America is a 6.5km circuit with 14 turns, running clockwise. It's part of the Toyota GR Cup championship. The track is known for its flowing layout with high-speed sections.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "overview",
+      "track": "road_america",
+      "race": null,
+      "difficulty": "beginner",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.861129"
+    }
+  },
+  {
+    "id": "rag_0045",
+    "question": "What makes Road America unique?",
+    "answer": "Road America is one of America's longest tracks at 6.5km with 14 turns. The high-speed nature, long straights, and fast corners like the Kink demand bravery and commitment.",
+    "context": {
+      "category": "track_info",
+      "subcategory": "characteristics",
+      "track": "road_america",
+      "race": null,
+      "difficulty": "intermediate",
+      "data_source": "track_config"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.861129"
+    }
+  },
+  {
+    "id": "rag_0046",
+    "question": "What's the best strategy for Road America?",
+    "answer": "Strategy for Road America: Fuel management is critical due to the long lap distance. Monitor consumption closely. Moderate tire wear allows for aggressive driving throughout the stint. The clockwise direction affects tire wear patterns. Typical pit window is laps 12-15 or 18-22 in a 27-lap race. Track position is important but overtaking is possible.",
+    "context": {
+      "category": "strategy",
+      "subcategory": "track_specific",
+      "track": "road_america",
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "expert_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.861129"
+    }
+  },
+  {
+    "id": "rag_0047",
+    "question": "What was the winning time at Road America Race 1?",
+    "answer": "The race winner at Road America Race 1 completed the race in 45:03.689. This represents the fastest overall performance across all 28 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "road_america",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.863126"
+    }
+  },
+  {
+    "id": "rag_0048",
+    "question": "How many cars competed at Road America Race 1?",
+    "answer": "28 cars competed in Race 1 at Road America. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "road_america",
+      "race": 1,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.863126"
+    }
+  },
+  {
+    "id": "rag_0049",
+    "question": "What were the weather conditions at Road America Race 1?",
+    "answer": "At Road America Race 1, the track temperature was 23.7°C and air temperature was 20.91°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "road_america",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.865640"
+    }
+  },
+  {
+    "id": "rag_0050",
+    "question": "What were the top 3 lap times at Road America Race 1?",
+    "answer": "The top 3 lap times at Road America Race 1 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "road_america",
+      "race": 1,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.867640"
+    }
+  },
+  {
+    "id": "rag_0051",
+    "question": "What was the winning time at Road America Race 2?",
+    "answer": "The race winner at Road America Race 2 completed the race in 46:59.428. This represents the fastest overall performance across all 28 competitors in the race.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "winner_stats",
+      "track": "road_america",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.874640"
+    }
+  },
+  {
+    "id": "rag_0052",
+    "question": "How many cars competed at Road America Race 2?",
+    "answer": "28 cars competed in Race 2 at Road America. All competitors raced in the Toyota GR86 Am class, making it a spec series where driver skill and strategy are the primary differentiators.",
+    "context": {
+      "category": "race_results",
+      "subcategory": "field_size",
+      "track": "road_america",
+      "race": 2,
+      "difficulty": "beginner",
+      "data_source": "results"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.874640"
+    }
+  },
+  {
+    "id": "rag_0053",
+    "question": "What were the weather conditions at Road America Race 2?",
+    "answer": "At Road America Race 2, the track temperature was 30.9°C and air temperature was 22.64°C. These conditions significantly affect tire performance and grip levels. Optimal track temps are typically 25-35°C for best tire performance.",
+    "context": {
+      "category": "weather",
+      "subcategory": "conditions",
+      "track": "road_america",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "weather"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.878255"
+    }
+  },
+  {
+    "id": "rag_0054",
+    "question": "What were the top 3 lap times at Road America Race 2?",
+    "answer": "The top 3 lap times at Road America Race 2 were: 1st: N/A, 2nd: N/A, 3rd: N/A. These represent the absolute best single-lap performances during the race and serve as benchmark times for this circuit.",
+    "context": {
+      "category": "lap_times",
+      "subcategory": "top_laps",
+      "track": "road_america",
+      "race": 2,
+      "difficulty": "intermediate",
+      "data_source": "best_laps"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.879772"
+    }
+  }
+]

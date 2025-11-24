@@ -1,0 +1,97 @@
+[
+  {
+    "id": "rag_0109",
+    "question": "How does a coach analyze driver performance?",
+    "answer": "Professional coaching involves deep analysis: 1) Telemetry comparison - Overlay driver data with reference laps to identify specific areas for improvement. 2) Video review - Analyze onboard footage for steering inputs, visual reference points, and body position. 3) Corner-by-corner breakdown - Focus on entry, mid-corner, and exit phases separately. 4) Pattern recognition - Identify consistent mistakes or technique issues across multiple corners. 5) Setup vs driver - Distinguish between car problems and driver technique. Good coaches can identify 0.2-0.5s improvements in specific corners.",
+    "context": {
+      "category": "coaching_advanced",
+      "subcategory": "technical_feedback_analysis",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0110",
+    "question": "How should a coach communicate with drivers?",
+    "answer": "Effective coaching communication requires: 1) Clear language - Use specific, actionable instructions ('brake 5m later at Turn 1' not 'brake later'). 2) Positive framing - Focus on what to do, not what not to do. 3) Timing - Give feedback when the driver is receptive, not immediately after a mistake. 4) Demonstration - Show data or video to illustrate points. 5) Listening - Understand the driver's perspective and feelings about the car. 6) Patience - Allow time for drivers to process and implement changes. Strong communication accelerates driver development.",
+    "context": {
+      "category": "coaching_advanced",
+      "subcategory": "communication_with_drivers",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0111",
+    "question": "How do you develop young racing talent?",
+    "answer": "Developing young drivers requires: 1) Fundamentals first - Master basic techniques before advanced concepts. 2) Data literacy - Teach drivers to read and understand telemetry. 3) Adaptability training - Expose them to different cars, tracks, and conditions. 4) Race craft - Practice overtaking, defending, and wheel-to-wheel racing. 5) Mental development - Build confidence and resilience through experience. 6) Gradual progression - Don't rush development; allow time to master each level. 7) Feedback culture - Create environment where mistakes are learning opportunities. Patient, structured development produces better long-term results.",
+    "context": {
+      "category": "coaching_advanced",
+      "subcategory": "young_driver_development",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0112",
+    "question": "How do you translate driver feedback into setup changes?",
+    "answer": "Converting feedback to setup requires expertise: 1) Understand the complaint - 'Understeer' can mean different things at different phases. 2) Identify the phase - Entry, mid-corner, or exit determines the solution. 3) Consider conditions - Temperature, track evolution, and tire wear affect handling. 4) Systematic changes - Adjust one thing at a time to isolate effects. 5) Verify with data - Check if telemetry supports the driver's feeling. 6) Test and iterate - Make change, test, review, adjust. Common fixes: Understeer entry = more front brake bias. Understeer mid = soften front, stiffen rear. Oversteer exit = reduce rear spring rate or add rear wing.",
+    "context": {
+      "category": "coaching_advanced",
+      "subcategory": "setup_adjustments_from_feedback",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  },
+  {
+    "id": "rag_0113",
+    "question": "How should a coach give instructions during a race?",
+    "answer": "In-race coaching requires special skills: 1) Calm tone - Keep voice steady even in critical moments. 2) Concise messages - Drivers can't process long explanations while racing. 3) Timing - Give info at appropriate moments (not mid-corner). 4) Prioritize - Focus on most important information only. 5) Positive reinforcement - Acknowledge good performance. 6) Strategic updates - Gaps, pit windows, competitor positions. 7) Emergency clarity - In incidents, give clear, direct instructions. Example: 'Gap 2.5 seconds, push for 3 laps then pit' vs long explanation. Clear, calm communication helps drivers perform under pressure.",
+    "context": {
+      "category": "coaching_advanced",
+      "subcategory": "race_instruction_delivery",
+      "track": null,
+      "race": null,
+      "difficulty": "advanced",
+      "data_source": "professional_knowledge"
+    },
+    "metadata": {
+      "source": "toyota_gr_cup_2025",
+      "domain": "motorsports_race_engineering",
+      "verified": true,
+      "created": "2025-11-23T21:32:04.932993"
+    }
+  }
+]

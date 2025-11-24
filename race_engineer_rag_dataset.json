@@ -1,0 +1,356 @@
+[
+  {
+    "question": "What are the characteristics of Barber Motorsports Park?",
+    "answer": "Barber Motorsports Park is a 3.7km (2.30 mile) circuit with 17 turns, running clockwise. It's known for its technical layout and challenging corners.",
+    "context": {
+      "track": "barber",
+      "category": "track_info",
+      "data_source": "track_config"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How difficult is Barber Motorsports Park?",
+    "answer": "With 17 turns over 3.7km, Barber Motorsports Park presents a highly technical challenge. The clockwise direction requires specific setup considerations.",
+    "context": {
+      "track": "barber",
+      "category": "track_difficulty",
+      "turns": 17,
+      "length": 3.7
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What are the characteristics of Indianapolis Motor Speedway (Road Course)?",
+    "answer": "Indianapolis Motor Speedway (Road Course) is a 4.0km (2.49 mile) circuit with 14 turns, running clockwise. It's known for its technical layout and challenging corners.",
+    "context": {
+      "track": "indianapolis",
+      "category": "track_info",
+      "data_source": "track_config"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How difficult is Indianapolis Motor Speedway (Road Course)?",
+    "answer": "With 14 turns over 4.0km, Indianapolis Motor Speedway (Road Course) presents a balanced challenge. The clockwise direction requires specific setup considerations.",
+    "context": {
+      "track": "indianapolis",
+      "category": "track_difficulty",
+      "turns": 14,
+      "length": 4.0
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What are the characteristics of Circuit of The Americas?",
+    "answer": "Circuit of The Americas is a 5.5km (3.42 mile) circuit with 20 turns, running counterclockwise. It's known for its technical layout and challenging corners.",
+    "context": {
+      "track": "cota",
+      "category": "track_info",
+      "data_source": "track_config"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How difficult is Circuit of The Americas?",
+    "answer": "With 20 turns over 5.5km, Circuit of The Americas presents a highly technical challenge. The counterclockwise direction requires specific setup considerations.",
+    "context": {
+      "track": "cota",
+      "category": "track_difficulty",
+      "turns": 20,
+      "length": 5.5
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "Is Circuit of The Americas a long or short track?",
+    "answer": "Circuit of The Americas is a long circuit at 5.5km. This means longer lap times, more fuel consumption, and greater tire degradation per lap. Strategy becomes crucial for managing resources.",
+    "context": {
+      "track": "cota",
+      "category": "track_length"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What are the characteristics of Sebring International Raceway?",
+    "answer": "Sebring International Raceway is a 6.0km (3.73 mile) circuit with 17 turns, running clockwise. It's known for its technical layout and challenging corners.",
+    "context": {
+      "track": "sebring",
+      "category": "track_info",
+      "data_source": "track_config"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How difficult is Sebring International Raceway?",
+    "answer": "With 17 turns over 6.0km, Sebring International Raceway presents a highly technical challenge. The clockwise direction requires specific setup considerations.",
+    "context": {
+      "track": "sebring",
+      "category": "track_difficulty",
+      "turns": 17,
+      "length": 6.0
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "Is Sebring International Raceway a long or short track?",
+    "answer": "Sebring International Raceway is a long circuit at 6.0km. This means longer lap times, more fuel consumption, and greater tire degradation per lap. Strategy becomes crucial for managing resources.",
+    "context": {
+      "track": "sebring",
+      "category": "track_length"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What are the characteristics of Road America?",
+    "answer": "Road America is a 6.5km (4.04 mile) circuit with 14 turns, running clockwise. It's known for its technical layout and challenging corners.",
+    "context": {
+      "track": "road_america",
+      "category": "track_info",
+      "data_source": "track_config"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How difficult is Road America?",
+    "answer": "With 14 turns over 6.5km, Road America presents a balanced challenge. The clockwise direction requires specific setup considerations.",
+    "context": {
+      "track": "road_america",
+      "category": "track_difficulty",
+      "turns": 14,
+      "length": 6.5
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "Is Road America a long or short track?",
+    "answer": "Road America is a long circuit at 6.5km. This means longer lap times, more fuel consumption, and greater tire degradation per lap. Strategy becomes crucial for managing resources.",
+    "context": {
+      "track": "road_america",
+      "category": "track_length"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What are the characteristics of Sonoma Raceway?",
+    "answer": "Sonoma Raceway is a 4.0km (2.49 mile) circuit with 12 turns, running clockwise. It's known for its technical layout and challenging corners.",
+    "context": {
+      "track": "sonoma",
+      "category": "track_info",
+      "data_source": "track_config"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How difficult is Sonoma Raceway?",
+    "answer": "With 12 turns over 4.0km, Sonoma Raceway presents a balanced challenge. The clockwise direction requires specific setup considerations.",
+    "context": {
+      "track": "sonoma",
+      "category": "track_difficulty",
+      "turns": 12,
+      "length": 4.0
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What are the characteristics of Virginia International Raceway?",
+    "answer": "Virginia International Raceway is a 5.3km (3.29 mile) circuit with 18 turns, running clockwise. It's known for its technical layout and challenging corners.",
+    "context": {
+      "track": "vir",
+      "category": "track_info",
+      "data_source": "track_config"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How difficult is Virginia International Raceway?",
+    "answer": "With 18 turns over 5.3km, Virginia International Raceway presents a highly technical challenge. The clockwise direction requires specific setup considerations.",
+    "context": {
+      "track": "vir",
+      "category": "track_difficulty",
+      "turns": 18,
+      "length": 5.3
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "Is Virginia International Raceway a long or short track?",
+    "answer": "Virginia International Raceway is a long circuit at 5.3km. This means longer lap times, more fuel consumption, and greater tire degradation per lap. Strategy becomes crucial for managing resources.",
+    "context": {
+      "track": "vir",
+      "category": "track_length"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What was the fastest lap time at cota?",
+    "answer": "The fastest lap at cota was 0.000 seconds (0:0.000). The average lap time was 257.684 seconds, showing a inf% difference between the fastest and average pace.",
+    "context": {
+      "track": "cota",
+      "category": "lap_times",
+      "best_lap": 0.0,
+      "avg_lap": 257.6842916006339
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How consistent were lap times at cota?",
+    "answer": "Lap time consistency at cota showed a standard deviation of 550.720 seconds. Variable consistency indicates developing track conditions and driver performance.",
+    "context": {
+      "track": "cota",
+      "category": "consistency",
+      "std_dev": 550.7204714731715
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How does tire degradation affect lap times?",
+    "answer": "Tire degradation typically causes lap times to increase by 0.1-0.3 seconds per lap in the Toyota GR86. As the tire compound wears, grip decreases, requiring earlier braking points and slower corner speeds. Monitoring degradation helps determine optimal pit stop timing.",
+    "context": {
+      "category": "tire_degradation",
+      "type": "general"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "When should I pit for fresh tires?",
+    "answer": "Pit for fresh tires when: 1) Lap times degrade by more than 1 second from your best, 2) You're losing positions due to pace, 3) A safety car provides a 'free' stop, or 4) Your strategy calls for an undercut. In a 27-lap race, typical pit windows are laps 12-15 or 18-22.",
+    "context": {
+      "category": "pit_strategy",
+      "type": "tire_management"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What causes faster tire degradation?",
+    "answer": "Tire degradation accelerates with: aggressive driving (hard braking, wheelspin), high track temperatures, abrasive track surfaces, and high-speed corners with sustained lateral loads. Smooth inputs and proper tire temperature management extend tire life.",
+    "context": {
+      "category": "tire_degradation",
+      "type": "causes"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "Which tracks are most similar in the Toyota GR Cup?",
+    "answer": "Indianapolis and Sonoma are similar in length (both ~4.0km) but differ in character - Indianapolis combines oval banking with technical infield, while Sonoma is purely road course with elevation. Road America and Sebring are both long tracks (6.5km and 6.0km) requiring strong endurance and consistency.",
+    "context": {
+      "category": "track_comparison",
+      "type": "similarity"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What's the difference between clockwise and counterclockwise tracks?",
+    "answer": "Most tracks (Barber, Indianapolis, Sebring, Road America, Sonoma, VIR) run clockwise, while COTA runs counterclockwise. Counterclockwise tracks put different stresses on the car and driver - right-side tires work harder, and drivers experience different g-forces. Setup and driving technique must adapt accordingly.",
+    "context": {
+      "category": "track_direction",
+      "type": "technical"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What's an undercut strategy?",
+    "answer": "An undercut is pitting earlier than your competitor to gain track position. Fresh tires provide 1-2 seconds per lap advantage, allowing you to build a gap while they're on old tires. When they pit, you emerge ahead. Most effective when tire degradation is high and pit loss time is low.",
+    "context": {
+      "category": "race_strategy",
+      "type": "undercut"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How do I manage fuel in a race?",
+    "answer": "In Toyota GR Cup races, fuel management involves: 1) Calculating fuel consumption per lap (typically 2-3 liters), 2) Monitoring fuel level vs laps remaining, 3) Adjusting driving style if needed (lift-and-coast, short-shifting), 4) Planning pit stops to refuel if required. Running out of fuel costs more time than a slightly conservative pace.",
+    "context": {
+      "category": "race_strategy",
+      "type": "fuel_management"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "When should I push hard vs conserve?",
+    "answer": "Push hard when: 1) Qualifying or setting fastest lap, 2) Defending position, 3) On fresh tires with clear track, 4) Final laps with nothing to lose. Conserve when: 1) Managing tire life for strategy, 2) Fuel-saving mode, 3) Maintaining comfortable gap, 4) Learning track in practice. Balance speed with sustainability.",
+    "context": {
+      "category": "race_strategy",
+      "type": "pace_management"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What are the key telemetry parameters to monitor?",
+    "answer": "Critical telemetry includes: Speed (km/h), Throttle position (0-100%), Brake pressure (bar), Steering angle (degrees), Lateral/longitudinal G-forces, Gear selection, and Engine RPM. GPS position tracks racing line. Monitoring these helps identify areas for improvement and diagnose issues.",
+    "context": {
+      "category": "telemetry",
+      "type": "parameters"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How do I analyze my braking performance?",
+    "answer": "Analyze braking by examining: 1) Brake pressure (should be firm and consistent), 2) Braking point (earlier = safer, later = faster), 3) Trail braking (gradual release into corner), 4) Deceleration G-forces (higher = better). Compare your braking zones to faster drivers to find time gains.",
+    "context": {
+      "category": "driving_technique",
+      "type": "braking"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What's the optimal racing line?",
+    "answer": "The optimal racing line maximizes corner exit speed by: 1) Late apex in most corners, 2) Widest entry for shallow angle, 3) Hitting apex at minimum speed, 4) Unwinding steering on exit for maximum acceleration. Prioritize exits leading to straights - 'slow in, fast out' is faster overall.",
+    "context": {
+      "category": "driving_technique",
+      "type": "racing_line"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "How does track temperature affect performance?",
+    "answer": "Higher track temperatures (>40°C) increase tire degradation and reduce grip. Lower temperatures (<20°C) make it harder to bring tires up to operating temperature. Optimal track temp is 25-35°C. Adjust tire pressures and driving style based on conditions - smoother inputs in extreme temperatures.",
+    "context": {
+      "category": "weather",
+      "type": "temperature"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  },
+  {
+    "question": "What changes in wet conditions?",
+    "answer": "In wet conditions: 1) Braking distances increase 50-100%, 2) Corner speeds reduce 20-30%, 3) Racing line changes (avoid painted lines, seek grip), 4) Visibility decreases, 5) Tire choice becomes critical (wet vs intermediate). Smooth inputs and patience are essential - crashes lose more time than conservative pace.",
+    "context": {
+      "category": "weather",
+      "type": "wet_conditions"
+    },
+    "source": "toyota_gr_cup_telemetry",
+    "domain": "motorsports_race_engineering"
+  }
+]
