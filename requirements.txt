@@ -9,3 +9,6 @@ python-multipart==0.0.6
 pydantic==2.5.3
 scipy==1.11.4
 geopy==2.4.1
+google-cloud-storage==2.14.0
+mangum==0.17.0
+requests==2.31.0

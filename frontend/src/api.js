@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE_URL = '/api'
+const API_BASE_URL = 'https://raceiq-backend-1091035104912.us-central1.run.app'
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -43,5 +43,15 @@ export const fetchLapPotential = async (vehicleNumber) => {
 
 export const fetchSectorDegradation = async (vehicleNumber) => {
   const response = await api.get(`/sector-degradation/${vehicleNumber}`)
+  return response.data
+}
+
+export const fetchTracks = async () => {
+  const response = await api.get('/tracks')
+  return response.data
+}
+
+export const fetchTrackInfo = async (trackName) => {
+  const response = await api.get(`/tracks/${trackName}`)
   return response.data
 }

@@ -1,0 +1,48 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+.kiro/
+*.swp
+*.swo
+
+# Frontend
+frontend/
+node_modules/
+
+# Documentation
+docs/
+*.md
+README.md
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.py
+*_test.py
+
+# Scripts
+*.sh
+*.bat
+
+# Other
+.env
+.env.local
+output/

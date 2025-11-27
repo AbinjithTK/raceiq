@@ -1,0 +1,41 @@
+RaceIQ - Web Application Walkthrough Voiceover Script
+======================================================
+
+[INTRO - 5 seconds]
+Welcome to RaceIQ, your AI-powered race engineer assistant for Toyota GR Cup racing.
+
+[DASHBOARD OVERVIEW - 8 seconds]
+The dashboard provides real-time insights into race strategy and performance. At the top, you can select different tracks from our multi-track support, including Barber Motorsports Park and Indianapolis Motor Speedway.
+
+[VEHICLE SELECTION - 5 seconds]
+Choose any vehicle from the race to analyze their performance and receive strategic recommendations.
+
+[RACE STRATEGY PANEL - 10 seconds]
+The race strategy section shows optimal pit stop windows based on tire degradation analysis. Our AI calculates the best time to pit by analyzing lap times, tire wear patterns, and race position.
+
+[TIRE DEGRADATION - 8 seconds]
+The tire degradation chart visualizes how tire performance decreases over time. This helps teams understand when grip levels drop and plan pit stops accordingly.
+
+[LAP POTENTIAL - 7 seconds]
+Lap potential analysis shows the theoretical best lap time by combining the fastest sectors. This reveals where drivers can improve and how much time is available.
+
+[COACHING INSIGHTS - 8 seconds]
+AI-powered coaching insights provide specific recommendations for each sector, identifying where drivers are losing time and suggesting improvements.
+
+[3D TRACK VISUALIZATION - 8 seconds]
+The interactive 3D track map displays the racing line with real telemetry data. You can see speed, braking points, and acceleration zones throughout the circuit.
+
+[LIVE TELEMETRY - 8 seconds]
+The telemetry view displays real-time data from the track, showing speed, throttle input, brake pressure, and G-forces as the car navigates each corner and straight.
+
+[REAL-TIME TIPS - 7 seconds]
+Real-time coaching tips appear based on current performance, providing actionable advice on braking points, throttle application, and racing line optimization.
+
+[CROSS-TRACK COMPARISON - 8 seconds]
+Compare performance across different tracks to understand how vehicles and drivers perform at various circuits, helping with championship strategy.
+
+[CLOSING - 6 seconds]
+RaceIQ combines real race data with AI to deliver professional-level race engineering insights, making advanced strategy accessible to all teams.
+
+[END]
+Total Duration: ~90 seconds

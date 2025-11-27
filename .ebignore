@@ -1,0 +1,22 @@
+# Exclude from Elastic Beanstalk deployment
+.venv/
+.git/
+.kiro/
+node_modules/
+frontend/
+docs/
+output/
+*.md
+test_*.py
+*_test.py
+**/*_telemetry_data.csv
+COTA/
+road-america/
+sebring/
+Sonoma/
+virginia-international-raceway/
+*.bat
+*.sh
+.DS_Store
+__pycache__/
+*.pyc

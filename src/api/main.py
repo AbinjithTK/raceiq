@@ -39,16 +39,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Initialize data and analyzers
-# Use absolute path to project root
-import os
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
-barber_path = os.path.join(project_root, 'barber')
-loader = RaceDataLoader(data_dir=barber_path)
-multi_loader = MultiTrackLoader(base_path=project_root)
+# Initialize analyzers
 tire_analyzer = TireDegradationAnalyzer()
 line_analyzer = RacingLineAnalyzer()
 strategy_analyzer = RaceStrategyAnalyzer()
+
+# Data loaders will be initialized after downloading from GCS
+loader = None
+multi_loader = None
+data_root = None
+barber_path = None
 
 # Load data on startup
 race_results = None
@@ -58,26 +58,57 @@ rag_dataset = []
 
 @app.on_event("startup")
 async def startup_event():
-    global race_results, lap_times, analysis_data, rag_dataset
-    print("🏁 Loading race data...")
-    try:
-        race_results = loader.load_race_results(race_num=1)
-        lap_times = loader.load_lap_times(race_num=1)
-        analysis_data = loader.load_analysis_endurance(race_num=1)
-        print("✅ Data loaded successfully!")
-    except Exception as e:
-        print(f"⚠️  Warning: Could not load data: {e}")
-        print("API will run with limited functionality")
+    global race_results, lap_times, analysis_data, rag_dataset, loader, multi_loader, data_root, barber_path
     
-    # Load RAG dataset
-    print("🤖 Loading AI knowledge base...")
+    print("🏁 RaceIQ API Starting...")
+    
+    # Check if running in cloud (AWS Lambda, Elastic Beanstalk, etc.)
+    is_cloud = os.getenv("AWS_EXECUTION_ENV") or os.getenv("AWS_LAMBDA_FUNCTION_NAME") or os.getenv("RENDER")
+    
+    if is_cloud:
+        print("☁️  Running in cloud environment, downloading data from GCS...")
+        from src.gcs_to_local_loader import ensure_data_available
+        data_root = ensure_data_available("/tmp/raceiq_data")
+    else:
+        print("💻 Running locally, using local data files...")
+        data_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+    
+    barber_path = os.path.join(data_root, 'barber')
+    
+    # Try to initialize loaders
     try:
-        rag_path = os.path.join(os.path.dirname(__file__), '../../rag_dataset/race_engineer_enhanced.jsonl')
-        with open(rag_path, 'r', encoding='utf-8') as f:
-            rag_dataset = [json.loads(line) for line in f]
-        print(f"✅ Loaded {len(rag_dataset)} knowledge entries!")
+        loader = RaceDataLoader(data_dir=barber_path)
+        multi_loader = MultiTrackLoader(base_path=data_root)
+        print(f"✅ Data loaders initialized")
     except Exception as e:
-        print(f"⚠️  Warning: Could not load RAG dataset: {e}")
+        print(f"⚠️  Loaders not initialized: {e}")
+    
+    # Try to load data (but don't fail if it doesn't work)
+    try:
+        if os.path.exists(barber_path) and len(os.listdir(barber_path)) > 1:
+            race_results = loader.load_race_results(race_num=1)
+            lap_times = loader.load_lap_times(race_num=1)
+            analysis_data = loader.load_analysis_endurance(race_num=1)
+            print(f"✅ Data loaded: {len(race_results)} vehicles, {len(lap_times)} laps")
+        else:
+            print(f"⚠️  No data files found in {barber_path}")
+            print("API will serve demo data or return errors until data is available")
+    except Exception as e:
+        print(f"⚠️  Data not loaded: {e}")
+    
+    # Try to load RAG dataset
+    try:
+        rag_path = os.path.join(data_root, 'rag_dataset/race_engineer_enhanced.jsonl')
+        if os.path.exists(rag_path):
+            with open(rag_path, 'r', encoding='utf-8') as f:
+                rag_dataset = [json.loads(line) for line in f]
+            print(f"✅ Loaded {len(rag_dataset)} AI knowledge entries")
+        else:
+            print(f"⚠️  RAG dataset not found")
+    except Exception as e:
+        print(f"⚠️  RAG dataset not loaded: {e}")
+    
+    print("✅ RaceIQ API Ready!")
 
 
 class PitPredictionRequest(BaseModel):

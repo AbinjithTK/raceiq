@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GradientButton } from './ui/gradient-button';
+import { fetchTracks as fetchTracksAPI } from '../api';
 import './TrackSelector.css';
 
 const TrackSelector = ({ onTrackChange, currentTrack }) => {
@@ -8,13 +9,12 @@ const TrackSelector = ({ onTrackChange, currentTrack }) => {
   const [showDropdown, setShowDropdown] = useState(false);
 
   useEffect(() => {
-    fetchTracks();
+    loadTracks();
   }, []);
 
-  const fetchTracks = async () => {
+  const loadTracks = async () => {
     try {
-      const response = await fetch('/api/tracks');
-      const data = await response.json();
+      const data = await fetchTracksAPI();
       setTracks(data.tracks || []);
       setLoading(false);
     } catch (error) {

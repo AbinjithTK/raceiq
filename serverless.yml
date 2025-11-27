@@ -1,0 +1,50 @@
+service: raceiq-backend
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: us-east-1
+  memorySize: 1024
+  timeout: 30
+  environment:
+    PYTHONPATH: /var/task
+
+functions:
+  api:
+    handler: lambda_handler.handler
+    events:
+      - httpApi: '*'
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    slim: true
+    strip: false
+    layer: false
+    zip: true
+    fileName: requirements.txt
+
+package:
+  patterns:
+    - '!.venv/**'
+    - '!node_modules/**'
+    - '!frontend/**'
+    - '!.git/**'
+    - '!.kiro/**'
+    - '!docs/**'
+    - '!output/**'
+    - '!test_*.py'
+    - '!*_test.py'
+    - '!*.md'
+    - '!**/*_telemetry_data.csv'
+    - 'src/**'
+    - 'barber/*.CSV'
+    - 'barber/*.csv'
+    - 'indianapolis/*.CSV'
+    - 'indianapolis/*.csv'
+    - 'rag_dataset/**'
+    - 'lambda_handler.py'
+    - 'requirements.txt'
