@@ -40,10 +40,24 @@ dist/
 .DS_Store
 Thumbs.db
 
-# Local Netlify folder
-.netlify
+# Deployment folders
+.netlify/
+.elasticbeanstalk/
+.ebextensions/
 
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
+# Cloud configs
+.firebaserc
+.gcloudignore
+.ebignore
+.dockerignore
+firebase.json
+cloudbuild.yaml
+serverless.yml
+netlify.toml
+render.yaml
+
+# RAG dataset folder
+rag_dataset/
+
+# Output folder
+output/

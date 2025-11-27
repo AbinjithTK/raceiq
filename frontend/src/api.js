@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const API_BASE_URL = 'https://raceiq-backend.onrender.com'
+// Use environment variable if available, fallback to Render
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://raceiq-backend.onrender.com'
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -8,6 +9,9 @@ const api = axios.create({
     'Content-Type': 'application/json',
   },
 })
+
+// Log API URL for debugging
+console.log('🔗 API Base URL:', API_BASE_URL)
 
 export const fetchVehicles = async () => {
   const response = await api.get('/vehicles')
